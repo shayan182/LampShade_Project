@@ -1,0 +1,17 @@
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csprojAssemblyReference.cache
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.deps.json
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\bin\Debug\net5.0\ref\ShopManagement.Domain.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb

@@ -1,0 +1,12 @@
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.csprojAssemblyReference.cache
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.AssemblyInfoInputs.cache
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.AssemblyInfo.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.csproj.CoreCompileInputs.cache
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.pdb

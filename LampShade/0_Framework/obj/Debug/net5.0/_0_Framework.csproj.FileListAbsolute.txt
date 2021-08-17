@@ -1,0 +1,4 @@
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\_0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\_0_Framework.AssemblyInfoInputs.cache
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\_0_Framework.AssemblyInfo.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\0_FrameWork\obj\Debug\net5.0\_0_Framework.csproj.CoreCompileInputs.cache
