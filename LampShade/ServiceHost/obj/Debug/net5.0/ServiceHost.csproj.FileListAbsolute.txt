@@ -160,3 +160,7 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\o
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\_ViewImports.cshtml.g.cs
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\_ViewStart.cshtml.g.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Index.cshtml.g.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
