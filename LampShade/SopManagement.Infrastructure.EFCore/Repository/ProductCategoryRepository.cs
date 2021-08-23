@@ -18,6 +18,17 @@ namespace SopManagement.Infrastructure.EFCore.Repository
         }
 
 
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _context.ProductCategories.Select(x => new ProductCategoryViewModel
+                {
+                    Id = x.Id,
+                    Name = x.Name
+                })
+                .ToList();
+
+        }
+
         public EditProductCategory GetDetails(long id)
         {
             return _context.ProductCategories.Select(x => new EditProductCategory()
@@ -35,9 +46,9 @@ namespace SopManagement.Infrastructure.EFCore.Repository
                 .FirstOrDefault(x => x.Id == id);
         }
 
-        public List<ProductCategoryViewModes> Search(ProductCategorySearchModel searchModel)
+        public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
-            var query = _context.ProductCategories.Select(x => new ProductCategoryViewModes()
+            var query = _context.ProductCategories.Select(x => new ProductCategoryViewModel()
             {
                 Id = x.Id,
                 Name = x.Name,

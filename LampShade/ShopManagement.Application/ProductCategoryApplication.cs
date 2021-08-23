@@ -19,7 +19,7 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
             if (_categoryRepository.Exists(x => x.Name == command.Name))
-                return operation.Failed("امکان ثبت رکورد تکراری وجود ندارد.لطفا مجدد تلاش بفرمایید");
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
             var slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description, command.Picture,
                 command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
@@ -34,10 +34,10 @@ namespace ShopManagement.Application
             var operation = new OperationResult();
             var productCategory = _categoryRepository.Get(command.Id);
             if (productCategory == null)
-                return operation.Failed("رکوردی با اطلاعات درخواست شده یافت نشد . لطفا مجدد تلاش بفرمایید");
+                return operation.Failed(ApplicationMessages.RecordNotFound);
 
             if (_categoryRepository.Exists(x => x.Id != command.Id && x.Name == command.Name))
-                return operation.Failed("رکوردی با اطلاعات درخواست شده یافت نشد . لطفا مجدد تلاش بفرمایید");
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
             productCategory.Edit(command.Name, command.Description, command.Picture,
@@ -47,7 +47,7 @@ namespace ShopManagement.Application
             return operation.Succeeded();
         }
 
-        public List<ProductCategoryViewModes> Search(ProductCategorySearchModel searchModel)
+        public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
             return _categoryRepository.Search(searchModel);
         }
@@ -55,6 +55,11 @@ namespace ShopManagement.Application
         public EditProductCategory GetDetails(long id)
         {
             return _categoryRepository.GetDetails(id);
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _categoryRepository.GetProductCategories();
         }
     }
 }
