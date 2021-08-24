@@ -29,7 +29,6 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
         {
             Products = _productApplication.Search(searchModel);
             ProductCategories = new SelectList(_categoryApplication.GetProductCategories(), "Id", "Name");
-            Message = "";
         }
         public IActionResult OnGetCreate()
         {
@@ -38,7 +37,13 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
         }
         public JsonResult OnPostCreate(CreateProduct command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = "عملیات با شکست مواجه شد!!";
+
+            }
             var result = _productApplication.Create(command);
+            Message = "عملیات با موفقیت انجام شد!!";
             return new JsonResult(result);
         }
 
@@ -51,7 +56,14 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 
         public JsonResult OnPostEdit(EditProduct command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = "عملیات با شکست مواجه شد!!";
+
+            }
+
             var result = _productApplication.Edit(command);
+            Message = "عملیات با موفقیت انجام شد!!";
             return new JsonResult(result);
         }
 
@@ -59,8 +71,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
         {
             var result = _productApplication.NotInStock(id);
             if (result.IsSuccedded)
+            {
+                Message = result.Message;
                 return RedirectToPage("./Index");
-               
+            }
+
             Message = result.Message;
             return RedirectToPage("./Index");
 
@@ -69,7 +84,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
         {
             var result = _productApplication.InStock(id);
             if (result.IsSuccedded)
+            {
+                Message = result.Message;
                 return RedirectToPage("./Index");
+            }
                
             Message = result.Message;
             return RedirectToPage("./Index");

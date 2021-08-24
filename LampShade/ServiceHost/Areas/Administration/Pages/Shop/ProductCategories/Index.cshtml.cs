@@ -8,6 +8,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 {
     public class IndexModel : PageModel
     {
+        [TempData] public string Message { get; set; }  
         public ProductCategorySearchModel SearchModel;
         public List<ProductCategoryViewModel> ProductCategories;
         private readonly IProductCategoryApplication _categoryApplication;
@@ -28,7 +29,13 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
         }
         public JsonResult OnPostCreate(CreateProductCategory command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = "عملیات با شکست مواجه شد!!";
+
+            }
             var result = _categoryApplication.Create(command);
+            Message = "عملیات با موفقیت انجام شد!!";
             return new JsonResult(result);
         }
 
@@ -40,14 +47,16 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public JsonResult OnPostEdit(EditProductCategory command)
         {
-            if (!ModelState.IsValid)
+
+
+            if (!ModelState.IsValid )
             {
-                ViewData["Error"] = "عملیات با شکست مواجه شد!!";
+                Message = "عملیات با شکست مواجه شد!!";
 
             }
 
             var result = _categoryApplication.Edit(command);
-            ViewData["Success"] = "عملیات با موفقیت انجام شد!!";
+            Message = "عملیات با موفقیت انجام شد!!";
             return new JsonResult(result);
         }
     }
