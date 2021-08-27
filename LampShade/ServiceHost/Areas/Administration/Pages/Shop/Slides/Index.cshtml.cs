@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using _0_Framework.Application;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -35,7 +36,13 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 
         public JsonResult OnPostCreate(CreateSlide command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = "عملیات با شکست مواجه شد!!";
+
+            }
             var result = _slideApplication.Create(command);
+            Message = "عملیات با موفقیت انجام شد!!";
             return new JsonResult(result);
         }
 
@@ -47,15 +54,24 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 
         public JsonResult OnPostEdit(EditSlide command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = "عملیات با شکست مواجه شد!!";
+            }
             var result = _slideApplication.Edit(command);
+            Message = "عملیات با موفقیت انجام شد!!";
             return new JsonResult(result);
         }
 
         public IActionResult OnGetRemove(long id)
         {
+
             var result = _slideApplication.Remove(id);
             if (result.IsSuccedded)
+            {
+                Message = result.Message;
                 return RedirectToPage("./Index");
+            }
 
             Message = result.Message;
             return RedirectToPage("./Index");
@@ -65,7 +81,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
         {
             var result = _slideApplication.Restore(id);
             if (result.IsSuccedded)
+            {
+                Message = result.Message;
                 return RedirectToPage("./Index");
+            }
 
             Message = result.Message;
             return RedirectToPage("./Index");

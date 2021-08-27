@@ -21,3 +21,5 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\01_LampshadeQuery.pdb

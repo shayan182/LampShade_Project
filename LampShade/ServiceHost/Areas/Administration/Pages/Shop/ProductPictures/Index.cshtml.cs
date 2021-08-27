@@ -17,9 +17,9 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
 
         private readonly IProductApplication _productApplication;
         private readonly IProductPictureApplication _productPictureApplication;
-        public IndexModel(IProductApplication ProductApplication, IProductPictureApplication productPictureApplication)
+        public IndexModel(IProductApplication productApplication, IProductPictureApplication productPictureApplication)
         {
-            _productApplication = ProductApplication;
+            _productApplication = productApplication;
             _productPictureApplication = productPictureApplication;
         }
 
@@ -40,7 +40,13 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
 
         public JsonResult OnPostCreate(CreateProductPicture command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = "عملیات با شکست مواجه شد!!";
+            }
             var result = _productPictureApplication.Create(command);
+            Message = "عملیات با موفقیت انجام شد!!";
+
             return new JsonResult(result);
         }
 
@@ -53,7 +59,12 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
 
         public JsonResult OnPostEdit(EditProductPicture command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = "عملیات با شکست مواجه شد!!";
+            }
             var result = _productPictureApplication.Edit(command);
+            Message = "عملیات با موفقیت انجام شد!!";
             return new JsonResult(result);
         }
 
@@ -61,7 +72,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         {
             var result = _productPictureApplication.Remove(id);
             if (result.IsSuccedded)
+            {
+                Message = result.Message;
                 return RedirectToPage("./Index");
+            }
 
             Message = result.Message;
             return RedirectToPage("./Index");
@@ -71,7 +85,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         {
             var result = _productPictureApplication.Restore(id);
             if (result.IsSuccedded)
+            {
+                Message = result.Message;
                 return RedirectToPage("./Index");
+            }
 
             Message = result.Message;
             return RedirectToPage("./Index");
