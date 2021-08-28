@@ -77,7 +77,6 @@
                                     <i class="md md-notifications"></i> <span class="badge badge-xs badge-danger">3</span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-lg">
-                                    <li class="text-center notifi-title">Notification</li>
                                     <li class="list-group">
                                         <!-- list item-->
                                         <a href="javascript:void(0);" class="list-group-item">
@@ -149,32 +148,32 @@
         <!-- Top Bar End -->
         <!-- ========== Left Sidebar Start ========== -->
         <partial name="_Menu">
-        <!-- Left Sidebar End -->
-        <!-- ============================================================== -->
-        <!-- Start right Content here -->
-        <!-- ============================================================== -->
-        <div class="content-page">
-            <!-- Start content -->
-            <div class="content">
-                <div class="container">
+            <!-- Left Sidebar End -->
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container">
 
 
 
 
-                    @RenderBody()
+                        @RenderBody()
 
 
 
 
-                </div> <!-- container -->
+                    </div> <!-- container -->
 
-            </div> <!-- content -->
+                </div> <!-- content -->
 
-            <footer class="footer text-right">
-                2015 © Moltran.
-            </footer>
+                <footer class="footer text-right">
+                    2015 © Moltran.
+                </footer>
 
-        </div>
+            </div>
 
 
     </div>
@@ -205,7 +204,7 @@
     <script src="~/AdminTheme/assets/sweet-alert/sweet-alert.min.js"></script>
     <script src="~/AdminTheme/assets/sweet-alert/sweet-alert.init.js"></script>
 
-     @*flot Chart*@ 
+    @*flot Chart*@
     <script src="~/AdminTheme/assets/flot-chart/jquery.flot.js"></script>
     <script src="~/AdminTheme/assets/flot-chart/jquery.flot.time.js"></script>
     <script src="~/AdminTheme/assets/flot-chart/jquery.flot.tooltip.min.js"></script>
@@ -232,7 +231,7 @@
     <!-- Todo -->
     <script src="~/AdminTheme/assets/js/jquery.todo.js"></script>
 
-    
+
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 
@@ -241,6 +240,12 @@
     <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
     <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
 
+    <script>
+        $('.persianDateInput').persianDatepicker({
+            format: 'YYYY/MM/DD',
+            autoClose: true
+        });
+    </script>
 
     @RenderSection("Scripts", false)
 
