@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DiscountManagement.Configuration;
+using DiscountManagement.Infrastructure.EFCore;
 using ShopManagement.Configuration;
 
 namespace ServiceHost
@@ -27,6 +28,7 @@ namespace ServiceHost
             var connectionString = Configuration.GetConnectionString("LampShadeDb");
             ShopManagementBootstrapper.Configure(services , connectionString );
             DiscountManagementBootstrapper.Configure(services , connectionString);
+            services.AddDbContext<DiscountContext>();
             services.AddRazorPages();
         }
 

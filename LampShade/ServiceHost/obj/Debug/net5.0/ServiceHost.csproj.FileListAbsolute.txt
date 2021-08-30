@@ -191,3 +191,6 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\b
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Create.cshtml.g.cs
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Edit.cshtml.g.cs
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Index.cshtml.g.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Create.cshtml.g.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Edit.cshtml.g.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Index.cshtml.g.cs

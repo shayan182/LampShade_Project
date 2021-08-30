@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using System.Collections.Generic;
 using DiscountManagement.Application.Contract;
+using DiscountManagement.Application.Contract.CustomerDiscount;
 
 namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
 {
