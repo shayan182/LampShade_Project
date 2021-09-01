@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using _0_Framework.Application;
-using _0_Framework.Domain;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
-using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace SopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductRepository : RepositoryBase<long, Product>, IProductRepository
     {
         private readonly ShopContext _context;
-
         public ProductRepository(ShopContext context) : base(context)
         {
             _context = context;
@@ -37,7 +32,6 @@ namespace SopManagement.Infrastructure.EFCore.Repository
                 Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
-                UnitPrice = x.UnitPrice,
                 ShortDescription = x.ShortDescription
             })
                 .FirstOrDefault(x => x.Id == id);
@@ -65,8 +59,6 @@ namespace SopManagement.Infrastructure.EFCore.Repository
                     CategoryId = x.CategoryId,
                     Code = x.Code,
                     Picture = x.Picture,
-                    UnitPrice = x.UnitPrice,
-                    IsInStock = x.IsInStock,
                     CreationDate = x.CreationDate.ToFarsi()
                 });
 
