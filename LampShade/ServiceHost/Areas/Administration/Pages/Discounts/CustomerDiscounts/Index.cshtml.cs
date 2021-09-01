@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using System.Collections.Generic;
+using _0_Framework.Application;
 using DiscountManagement.Application.Contract;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 
@@ -43,7 +44,11 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
 
         public JsonResult OnPostCreate(DefineCustomerDiscount command)
         {
+            if (!ModelState.IsValid)
+                Message = ValidationMessages.Error;
+
             var result = _customerDiscountApplication.Define(command);
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 
@@ -56,7 +61,11 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
 
         public JsonResult OnPostEdit(EditCustomerDiscount command)
         {
+            if (!ModelState.IsValid)
+                Message = ValidationMessages.Error;
+
             var result = _customerDiscountApplication.Edit(command);
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
     }

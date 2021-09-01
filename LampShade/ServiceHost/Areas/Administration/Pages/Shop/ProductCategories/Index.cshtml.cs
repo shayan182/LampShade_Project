@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
+using _0_Framework.Application;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.ProductCategory;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
@@ -30,12 +30,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
         public JsonResult OnPostCreate(CreateProductCategory command)
         {
             if (!ModelState.IsValid)
-            {
-                Message = "عملیات با شکست مواجه شد!!";
+                Message = ValidationMessages.Error;
 
-            }
             var result = _categoryApplication.Create(command);
-            Message = "عملیات با موفقیت انجام شد!!";
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 
@@ -47,16 +45,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public JsonResult OnPostEdit(EditProductCategory command)
         {
-
-
             if (!ModelState.IsValid )
-            {
-                Message = "عملیات با شکست مواجه شد!!";
-
-            }
+                Message = ValidationMessages.Error;
 
             var result = _categoryApplication.Edit(command);
-            Message = "عملیات با موفقیت انجام شد!!";
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
     }

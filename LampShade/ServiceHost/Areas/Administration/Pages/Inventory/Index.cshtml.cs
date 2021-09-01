@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using _0_Framework.Application;
 using InventoryManagement.Application.Contract.Inventory;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -41,7 +42,11 @@ namespace ServiceHost.Areas.Administration.Pages.Inventory
 
         public JsonResult OnPostCreate(CreateInventory command)
         {
+            if (!ModelState.IsValid)
+                Message = ValidationMessages.Error;
+
             var result = _inventoryApplication.Create(command);
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 
@@ -54,7 +59,11 @@ namespace ServiceHost.Areas.Administration.Pages.Inventory
 
         public JsonResult OnPostEdit(EditInventory command)
         {
+            if (!ModelState.IsValid)
+                Message = ValidationMessages.Error;
+
             var result = _inventoryApplication.Edit(command);
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
         public IActionResult OnGetIncrease(long id)
@@ -69,6 +78,7 @@ namespace ServiceHost.Areas.Administration.Pages.Inventory
         public JsonResult OnPostIncrease(IncreaseInventory command)
         {
             var result = _inventoryApplication.Increase(command);
+            
             return new JsonResult(result);
         }
         public IActionResult OnGetReduce(long id)

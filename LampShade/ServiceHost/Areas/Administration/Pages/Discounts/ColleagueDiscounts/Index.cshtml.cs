@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using DiscountManagement.Application.Contract;
+using _0_Framework.Application;
 using DiscountManagement.Application.Contract.ColleagueDiscount;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -12,7 +12,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
     public class IndexModel : PageModel
     {
         [TempData]
-        public string Message { get; set; } 
+        public string Message { get; set; }
         public ColleagueDiscountSearchModel SearchModel;
         public List<ColleagueDiscountViewModel> ColleagueDiscounts;
         public SelectList Products;
@@ -36,14 +36,18 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
         {
             var command = new DefineColleagueDiscount
             {
-                Products =  _productApplication.GetProducts()
+                Products = _productApplication.GetProducts()
             };
             return Partial("./Create", command);
         }
 
         public JsonResult OnPostCreate(DefineColleagueDiscount command)
         {
+            if (!ModelState.IsValid)
+                Message = ValidationMessages.Error;
+
             var result = _colleagueDiscountApplication.Define(command);
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 
@@ -56,18 +60,36 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
 
         public JsonResult OnPostEdit(EditColleagueDiscount command)
         {
+            if (!ModelState.IsValid)
+                Message = ValidationMessages.Error;
+
             var result = _colleagueDiscountApplication.Edit(command);
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 
         public IActionResult OnGetRemove(long id)
         {
-            _colleagueDiscountApplication.Remove(id);
+            var result = _colleagueDiscountApplication.Remove(id);
+            if (result.IsSuccedded)
+            {
+                Message = result.Message;
+                return RedirectToPage("./Index");
+            }
+
+            Message = result.Message;
             return RedirectToPage("./Index");
         }
         public IActionResult OnGetRestore(long id)
         {
-            _colleagueDiscountApplication.Restore(id);
+            var result = _colleagueDiscountApplication.Restore(id);
+            if (result.IsSuccedded)
+            {
+                Message = result.Message;
+                return RedirectToPage("./Index");
+            }
+
+            Message = result.Message;
             return RedirectToPage("./Index");
         }
     }

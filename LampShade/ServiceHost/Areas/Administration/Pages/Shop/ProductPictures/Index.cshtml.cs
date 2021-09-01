@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductPicture;
 using System.Collections.Generic;
+using _0_Framework.Application;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
 {
@@ -41,12 +42,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         public JsonResult OnPostCreate(CreateProductPicture command)
         {
             if (!ModelState.IsValid)
-            {
-                Message = "عملیات با شکست مواجه شد!!";
-            }
+                Message = ValidationMessages.Error;
+            
             var result = _productPictureApplication.Create(command);
-            Message = "عملیات با موفقیت انجام شد!!";
-
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 
@@ -60,11 +59,9 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         public JsonResult OnPostEdit(EditProductPicture command)
         {
             if (!ModelState.IsValid)
-            {
-                Message = "عملیات با شکست مواجه شد!!";
-            }
+                Message = ValidationMessages.Error;
             var result = _productPictureApplication.Edit(command);
-            Message = "عملیات با موفقیت انجام شد!!";
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 

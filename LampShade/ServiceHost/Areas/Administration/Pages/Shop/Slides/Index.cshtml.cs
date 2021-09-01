@@ -37,12 +37,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
         public JsonResult OnPostCreate(CreateSlide command)
         {
             if (!ModelState.IsValid)
-            {
-                Message = "عملیات با شکست مواجه شد!!";
-
-            }
+                Message = ValidationMessages.Error;
+            
             var result = _slideApplication.Create(command);
-            Message = "عملیات با موفقیت انجام شد!!";
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 
@@ -55,11 +53,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
         public JsonResult OnPostEdit(EditSlide command)
         {
             if (!ModelState.IsValid)
-            {
-                Message = "عملیات با شکست مواجه شد!!";
-            }
+                Message = ValidationMessages.Error;
+
             var result = _slideApplication.Edit(command);
-            Message = "عملیات با موفقیت انجام شد!!";
+            Message = ValidationMessages.Success;
             return new JsonResult(result);
         }
 
