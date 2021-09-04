@@ -210,3 +210,4 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\b
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Increase.cshtml.g.cs
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Reduce.cshtml.g.cs
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml.g.cs

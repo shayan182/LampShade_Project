@@ -2003,6 +2003,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "DiscountManagement.Infrastructure.EFCore": "1.0.0",
+          "InventoryManagement.Infrastructure.EFCore": "1.0.0",
           "SopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "compile": {

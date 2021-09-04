@@ -2358,9 +2358,9 @@ select {
     color: #333;
 }
 
-    .single-grid-product__price .main-price.discounted {
+/*    .single-grid-product__price .main-price.discounted {
         text-decoration: line-through;
-    }
+    }*/
 
 .single-grid-product__price .discounted-price {
     font-size: 24px;

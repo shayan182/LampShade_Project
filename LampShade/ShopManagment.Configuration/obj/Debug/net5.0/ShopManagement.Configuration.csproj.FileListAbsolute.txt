@@ -23,3 +23,15 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\01_LampshadeQuery.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb

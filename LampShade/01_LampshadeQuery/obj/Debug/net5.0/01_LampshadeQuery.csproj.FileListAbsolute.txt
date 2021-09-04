@@ -19,3 +19,15 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQ
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\obj\Debug\net5.0\ref\01_LampshadeQuery.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb
