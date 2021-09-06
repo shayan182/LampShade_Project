@@ -41,7 +41,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             if (!ModelState.IsValid)
                 Message = ValidationMessages.Error;
             var result = _productApplication.Create(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 
@@ -58,7 +58,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
                 Message = ValidationMessages.Error;
 
             var result = _productApplication.Edit(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 

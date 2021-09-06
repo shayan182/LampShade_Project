@@ -47,7 +47,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
                 Message = ValidationMessages.Error;
 
             var result = _colleagueDiscountApplication.Define(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 
@@ -64,7 +64,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.ColleagueDiscounts
                 Message = ValidationMessages.Error;
 
             var result = _colleagueDiscountApplication.Edit(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 

@@ -45,7 +45,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
                 Message = ValidationMessages.Error;
             
             var result = _productPictureApplication.Create(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 
@@ -61,7 +61,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
             if (!ModelState.IsValid)
                 Message = ValidationMessages.Error;
             var result = _productPictureApplication.Edit(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 

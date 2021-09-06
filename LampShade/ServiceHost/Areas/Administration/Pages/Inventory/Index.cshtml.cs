@@ -46,7 +46,7 @@ namespace ServiceHost.Areas.Administration.Pages.Inventory
                 Message = ValidationMessages.Error;
 
             var result = _inventoryApplication.Create(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 
@@ -63,7 +63,7 @@ namespace ServiceHost.Areas.Administration.Pages.Inventory
                 Message = ValidationMessages.Error;
 
             var result = _inventoryApplication.Edit(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
         public IActionResult OnGetIncrease(long id)

@@ -33,7 +33,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
                 Message = ValidationMessages.Error;
 
             var result = _categoryApplication.Create(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 
@@ -49,7 +49,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
                 Message = ValidationMessages.Error;
 
             var result = _categoryApplication.Edit(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
     }

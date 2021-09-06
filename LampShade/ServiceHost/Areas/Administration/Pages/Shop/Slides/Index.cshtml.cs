@@ -40,7 +40,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
                 Message = ValidationMessages.Error;
             
             var result = _slideApplication.Create(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 
@@ -56,7 +56,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
                 Message = ValidationMessages.Error;
 
             var result = _slideApplication.Edit(command);
-            Message = ValidationMessages.Success;
+            Message = result.Message;
             return new JsonResult(result);
         }
 
