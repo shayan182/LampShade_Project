@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using _0_Framework.Application;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
@@ -8,11 +7,13 @@ namespace ShopManagement.Application
 {
     public class ProductCategoryApplication : IProductCategoryApplication
     {
+        private readonly IFileUploader _fileUploader;
         private readonly IProductCategoryRepository _categoryRepository;
 
-        public ProductCategoryApplication(IProductCategoryRepository categoryRepository)
+        public ProductCategoryApplication(IProductCategoryRepository categoryRepository, IFileUploader fileUploader)
         {
             _categoryRepository = categoryRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateProductCategory command)
@@ -21,7 +22,7 @@ namespace ShopManagement.Application
             if (_categoryRepository.Exists(x => x.Name == command.Name))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             var slug = command.Slug.Slugify();
-            var productCategory = new ProductCategory(command.Name, command.Description, command.Picture,
+            var productCategory = new ProductCategory(command.Name, command.Description, "command.Picture",
                 command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
 
             _categoryRepository.Create(productCategory);
@@ -40,9 +41,14 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
-            productCategory.Edit(command.Name, command.Description, command.Picture,
+
+            var picturePath = $"{command.Slug}";
+            var picture = _fileUploader.Uploader(command.Picture , picturePath);
+
+            productCategory.Edit(command.Name, command.Description, picture,
                 command.PictureAlt, command.PictureTitle
                 , command.Keywords, command.MetaDescription, slug);
+
             _categoryRepository.SaveChanges();
             return operation.Succeeded();
         }

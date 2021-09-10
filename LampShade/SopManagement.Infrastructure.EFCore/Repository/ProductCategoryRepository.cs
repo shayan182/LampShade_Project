@@ -40,7 +40,7 @@ namespace SopManagement.Infrastructure.EFCore.Repository
                 MetaDescription = x.MetaDescription,
                 Name = x.Name,
                 Slug = x.Slug,
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle
             })
