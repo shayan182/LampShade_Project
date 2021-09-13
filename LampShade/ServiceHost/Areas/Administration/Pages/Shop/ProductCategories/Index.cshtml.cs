@@ -45,8 +45,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public JsonResult OnPostEdit(EditProductCategory command)
         {
-            if (!ModelState.IsValid )
+            if (!ModelState.IsValid)
+            {
                 Message = ValidationMessages.Error;
+                return new JsonResult("500");
+            }
 
             var result = _categoryApplication.Edit(command);
             Message = result.Message;
