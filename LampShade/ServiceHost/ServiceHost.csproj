@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlogManagement.Infrastructure.Configuration\BlogManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagment.Configuration\ShopManagement.Configuration.csproj" />
@@ -21,6 +22,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\ProductPictures\اخبار\" />
   </ItemGroup>
 
 </Project>

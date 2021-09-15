@@ -14,8 +14,15 @@ body {
     text-align: right;
     font-family: 'IranSans'
 }
-
-.hero-slider-content { text-align: right; }
+.autogrow {
+    overflow: hidden;
+    word-wrap: break-word;
+    resize: vertical;
+    height: 104px;
+}
+.hero-slider-content {
+    text-align: right;
+}
 
 .hero-slider-area { direction: ltr; }
 

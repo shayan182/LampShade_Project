@@ -136,6 +136,330 @@
         }
       }
     },
+    "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj",
+        "projectName": "BlogManagement.Application.Contract",
+        "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
+        "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj",
+        "projectName": "BlogManagement.Application",
+        "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
+        "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj"
+              },
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "projectName": "BlogManagement.Domain",
+        "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
+        "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              },
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
+        "projectName": "BlogManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
+        "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructrue.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj",
+        "projectName": "BlogManagement.Infrastructure.Configuration",
+        "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj",
+        "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
+        "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj"
+              },
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj"
+              },
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -823,6 +1147,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
+              },
               "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
                 "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
               },
