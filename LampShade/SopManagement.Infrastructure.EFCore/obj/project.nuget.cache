@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p4BjOMeR0P5b8ZtDskdxrhwbknsvbhkdCJDAN6BUgjMcSykbcj7LUJ63Zv5hmn81q0aeczA0a4wQ4EjNRB5afg==",
+  "dgSpecHash": "iUe4OM9/lFOUiAmwJ1M0Fwi62lyFdXEDbCr22sv7+VbJJ1ijYC3wYJQtGLQgshCCdcDsG5hRGPs2YNQF9I7JNQ==",
   "success": true,
-  "projectFilePath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\SopManagement.Infrastructure.EFCore\\SopManagement.Infrastructure.EFCore.csproj",
+  "projectFilePath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\SopManagement.Infrastructure.EFCore\\SopManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shayan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

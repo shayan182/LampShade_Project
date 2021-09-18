@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IvLnhB9ucw6wkfZwLiYjFv2pkDiSNINwVM1ma90a8b5ewj8oCBlp3/HXn/mKG/g6MW59waAButeRud6CDx6l0w==",
+  "dgSpecHash": "Dy5PynOoK7wDLaNw9KiaOT2/SrsuqSrPSfKVHit3nn6zXrrz5htD43gSh1UB2lkzT2ZGK8krlhy/Qg3+m+AtWg==",
   "success": true,
-  "projectFilePath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
+  "projectFilePath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.9\\microsoft.aspnetcore.http.features.5.0.9.nupkg.sha512",

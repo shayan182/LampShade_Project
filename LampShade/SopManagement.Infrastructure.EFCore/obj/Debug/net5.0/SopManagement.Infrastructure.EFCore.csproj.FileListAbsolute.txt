@@ -20,3 +20,25 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\SopManagement
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\SopManagement.Infrastructure.EFCore.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.deps.json
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.runtimeconfig.json
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.runtimeconfig.dev.json
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ref\SopManagement.Infrastructure.EFCore.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.AssemblyInfo.cs
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.csproj.CopyComplete
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\SopManagement.Infrastructure.EFCore.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.genruntimeconfig.cache

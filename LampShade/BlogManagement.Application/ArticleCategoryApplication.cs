@@ -1,18 +1,19 @@
-﻿using System.Collections.Generic;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using BlogManagement.Application.Contract.ArticleCategory;
 using BlogManagement.Domain.ArticleCategoryAgg;
+using System.Collections.Generic;
 
 namespace BlogManagement.Application
 {
     public class ArticleCategoryApplication : IArticleCategoryApplication
     {
-        private readonly IArticleCategoryRepository _articleCategoryRepository;
         private readonly IFileUploader _fileUploader;
+        private readonly IArticleCategoryRepository _articleCategoryRepository;
+
         public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository, IFileUploader fileUploader)
         {
-            _articleCategoryRepository = articleCategoryRepository;
             _fileUploader = fileUploader;
+            _articleCategoryRepository = articleCategoryRepository;
         }
 
         public OperationResult Create(CreateArticleCategory command)
@@ -23,8 +24,9 @@ namespace BlogManagement.Application
 
             var slug = command.Slug.Slugify();
             var pictureName = _fileUploader.Uploader(command.Picture, slug);
-            var articleCategory = new ArticleCategory(command.Name, pictureName,command.PictureAlt, command.PictureTitle, command.Description, command.ShowOrder
-                , slug, command.Keywords, command.MetaDescription, command.CanonicalAddress);
+            var articleCategory = new ArticleCategory(command.Name, pictureName, command.PictureAlt, command.PictureTitle
+                , command.Description, command.ShowOrder, slug, command.Keywords, command.MetaDescription,
+                command.CanonicalAddress);
 
             _articleCategoryRepository.Create(articleCategory);
             _articleCategoryRepository.SaveChanges();
@@ -38,6 +40,7 @@ namespace BlogManagement.Application
 
             if (articleCategory == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);
+
             if (_articleCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
@@ -49,6 +52,11 @@ namespace BlogManagement.Application
 
             _articleCategoryRepository.SaveChanges();
             return operation.Succeeded();
+        }
+
+        public List<ArticleCategoryViewModel> GetArticleCategories()
+        {
+            return _articleCategoryRepository.GetArticleCategories();
         }
 
         public EditArticleCategory GetDetails(long id)

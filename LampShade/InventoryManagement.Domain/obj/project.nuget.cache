@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rQ5YBxw5JrbtfdqJ/NrSWw8zSsIICZjJnXrns9wgsrH6i/dADlT89Ryr1WNqaEY9szhuxPOhdobqKczSfzpdvg==",
+  "dgSpecHash": "TeHqns4VCfKzjbMQ8I5Mi1a1HqHEgMSYa7zwr/HfMRlSkvKlKAs5UJOQSgFBYciVi2m3rwPAFRwPx42Lardypg==",
   "success": true,
-  "projectFilePath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+  "projectFilePath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.9\\microsoft.aspnetcore.http.features.5.0.9.nupkg.sha512",

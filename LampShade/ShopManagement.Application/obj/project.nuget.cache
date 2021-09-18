@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0cJhwVhcl6CVm/ltoU4mRlmeZRK+Z2QG+FnxCzrWxZNZ8QibPqQTUnts4/N18K/D6zgmJs71urZtCLdFWrBIQA==",
+  "dgSpecHash": "xsOc9KMQg2UI99mRGcV46Qhfs3UgWbgAxHzb/3hse/g0CbxbJ7SEWI8O3k+RLhYvAbQLfd9QNioB+DLV7yZX0Q==",
   "success": true,
-  "projectFilePath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
+  "projectFilePath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.9\\microsoft.aspnetcore.http.features.5.0.9.nupkg.sha512",

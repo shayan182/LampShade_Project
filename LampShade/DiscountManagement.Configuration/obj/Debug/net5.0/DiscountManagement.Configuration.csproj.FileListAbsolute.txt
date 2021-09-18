@@ -27,3 +27,32 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\DiscountManag
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Configuration.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Configuration.deps.json
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Configuration.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\ref\DiscountManagement.Configuration.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Configuration.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\0_Framework.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csprojAssemblyReference.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfo.cs
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CopyComplete
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Configuration.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.pdb

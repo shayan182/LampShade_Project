@@ -21,3 +21,26 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\InventoryMana
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.deps.json
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\ref\InventoryManagement.Application.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\0_Framework.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Domain.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csprojAssemblyReference.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfoInputs.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfo.cs
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CopyComplete
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb

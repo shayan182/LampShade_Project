@@ -13,3 +13,18 @@ D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagemen
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
 D:\Shayan\ASP.NET 5\10-Project-Shop-ProductCategory\Code\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.deps.json
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\bin\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csprojAssemblyReference.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb

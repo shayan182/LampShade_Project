@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {}
+    "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {}
   },
   "projects": {
-    "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+    "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
-        "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\obj\\",
+        "outputPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
-        "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ShopManagement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj"
               }
             }
           }

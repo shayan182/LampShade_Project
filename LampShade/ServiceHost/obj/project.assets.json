@@ -7761,11 +7761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
+      "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ServiceHost\\ServiceHost.csproj",
       "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
-      "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ServiceHost\\obj\\",
+      "outputPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7782,17 +7782,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
             },
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
             },
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
             },
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ShopManagment.Configuration\\ShopManagement.Configuration.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\ShopManagment.Configuration\\ShopManagement.Configuration.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ShopManagment.Configuration\\ShopManagement.Configuration.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\ShopManagment.Configuration\\ShopManagement.Configuration.csproj"
             }
           }
         }

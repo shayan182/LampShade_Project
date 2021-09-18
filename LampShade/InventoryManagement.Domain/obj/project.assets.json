@@ -844,11 +844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
       "projectName": "InventoryManagement.Domain",
-      "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+      "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
-      "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Domain\\obj\\",
+      "outputPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -865,11 +865,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj"
             },
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
             }
           }
         }

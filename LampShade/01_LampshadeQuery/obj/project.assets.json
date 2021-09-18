@@ -6138,11 +6138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
+      "projectUniqueName": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
       "projectName": "01_LampshadeQuery",
-      "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
+      "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
       "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
-      "outputPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\01_LampshadeQuery\\obj\\",
+      "outputPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6159,14 +6159,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
             },
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
             },
-            "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\SopManagement.Infrastructure.EFCore\\SopManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\SopManagement.Infrastructure.EFCore\\SopManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\SopManagement.Infrastructure.EFCore\\SopManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\SopManagement.Infrastructure.EFCore\\SopManagement.Infrastructure.EFCore.csproj"
             }
           }
         }

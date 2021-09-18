@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LaKrC3mhRehNA6Fcw0cyfZbDNC4N9lOj7ubzjF1v6Exnr3FtZ7lDVefDczYTNeLM3M1JVhjLdeXUURyIk4qDOw==",
+  "dgSpecHash": "5wpL4m6yhSNlSmSjcoq7mv1SUCMRoh7uhvFksHcJrQbMztZJAjGkOx4+Jt0plQc+Jmx88zD5TxpDE8n9nLkIxg==",
   "success": true,
-  "projectFilePath": "D:\\Shayan\\ASP.NET 5\\10-Project-Shop-ProductCategory\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+  "projectFilePath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shayan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
