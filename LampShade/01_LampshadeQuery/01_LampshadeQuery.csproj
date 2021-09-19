@@ -6,9 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlogManagement.Infrastructrue.EFCore\BlogManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\CustomerDiscount.Infrastructure.EFCore\DiscountManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.EFCore\InventoryManagement.Infrastructure.EFCore.csproj" />
     <ProjectReference Include="..\SopManagement.Infrastructure.EFCore\SopManagement.Infrastructure.EFCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Security.Permissions">
+      <HintPath>C:\Program Files (x86)\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\System.Security.Permissions.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

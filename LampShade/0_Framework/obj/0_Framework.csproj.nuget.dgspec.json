@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj": {}
+    "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj": {
+    "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shayan\\Desktop\\Project\\LampShade_Project\\LampShade\\0_Framework\\obj\\",
+        "outputPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
