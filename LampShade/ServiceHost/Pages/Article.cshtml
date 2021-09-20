@@ -63,12 +63,12 @@
                                         <!--=======  Tags area  =======-->
 
                                         <div class="tag-area">
-                                            <span>Tags: </span>
+                                            <span>تگ ها : </span>
                                             <ul>
-                                                <li><a href="#">Image</a>,</li>
-                                                <li>
-                                                    <a href="#">furniture</a>
-                                                </li>
+                                                @foreach (var tag in Model.Article.KeywordList)
+                                                {
+                                                    <li><a asp-page="/Search" asp-route-id="@tag">@tag</a>,</li>
+                                                }
                                             </ul>
                                         </div>
 
@@ -263,7 +263,7 @@
                                             @foreach (var category in Model.ArticleCategory)
                                             {
                                                 <li>
-                                                    <a asp-page="/ArticleCategory" asp-route-id="@category.Slug" >
+                                                    <a asp-page="/ArticleCategory" asp-route-id="@category.Slug">
                                                         @category.Name <span class="counter">@category.ArticleCount</span>
                                                     </a>
                                                 </li>
@@ -298,33 +298,15 @@
                                         </div>
                                     </div>
                                     <div class="single-sidebar-widget">
-                                        <h4 class="single-sidebar-widget__title">Popular Tags</h4>
+                                        <h4 class="single-sidebar-widget__title">تگ ها</h4>
                                         <ul class="single-sidebar-widget__tag-list">
-                                            <li>
-                                                <a href="#">Car Seats</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Chair</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Engine Parts</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Sofas</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Sofas</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Decor</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Furniture</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Chair</a>
-                                            </li>
+                                            @foreach (var tag in Model.Article.KeywordList)
+                                            {
+                                                <li>
+                                                    <a asp-page="/Search" asp-route-value="@tag">@tag</a>
+                                                </li>
 
+                                            }
                                         </ul>
                                     </div>
                                     <!--=======  End of single sidebar widget  =======-->

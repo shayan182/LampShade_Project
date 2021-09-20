@@ -23,7 +23,7 @@ namespace ServiceHost.Pages
         {
             Article = _articleQuery.GetArticleDetails(id);
             LatestArticles = _articleQuery.LatestArticles();
-            ArticleCategory = _articleCategoryQuery.GetArticleCategory();
+            ArticleCategory = _articleCategoryQuery.GetArticleCategories();
         }
     }
 }

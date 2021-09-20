@@ -1,4 +1,7 @@
-﻿namespace _01_LampshadeQuery.Contracts.ArticleCategory
+﻿using System.Collections.Generic;
+using _01_LampshadeQuery.Contracts.Article;
+
+namespace _01_LampshadeQuery.Contracts.ArticleCategory
 {
     public class ArticleCategoryQueryModel
     {
@@ -10,8 +13,10 @@
         public int ShowOrder { get; set; }
         public string Slug { get; set; }
         public string KeyWords { get; set; }
+        public List<string> KeywordList { get; set; }
         public string MetaDescription { get; set; }
         public string CanonicalAddress { get; set; }
         public long ArticleCount { get; set; }
+        public List<ArticleQueryModel> Articles { get; set; }
     }
 }

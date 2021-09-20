@@ -19,7 +19,7 @@ namespace _01_LampshadeQuery.Query
 
         public ArticleQueryModel GetArticleDetails(string slug)
         {
-            return _context.Articles
+            var article = _context.Articles
                 .Include(x => x.Category)
                 .Where(x => x.PublishDate <= DateTime.Now)
                 .Select(x => new ArticleQueryModel
@@ -38,6 +38,11 @@ namespace _01_LampshadeQuery.Query
                     PublishDate = x.PublishDate.ToFarsi(),
                     ShortDescription = x.ShortDescription,
                 }).FirstOrDefault(x=>x.Slug == slug);
+
+            if (article != null && !string.IsNullOrWhiteSpace(article.Keywords))
+                article.KeywordList = article.Keywords.Split(",").ToList();
+            
+                return article;
         }
 
         public List<ArticleQueryModel> LatestArticles()
