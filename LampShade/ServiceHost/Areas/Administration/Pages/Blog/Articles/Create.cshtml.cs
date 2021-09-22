@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using BlogManagement.Application.Contract.Article;
 using BlogManagement.Application.Contract.ArticleCategory;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,7 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
 {
     public class CreateModel : PageModel
     {
+        [TempData] public string Message { get; set; }
         public CreateArticle Command;
         public SelectList ArticleCategories;
 
@@ -27,8 +29,15 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
 
         public IActionResult OnPost(CreateArticle command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = ValidationMessages.Error;
+                return RedirectToPage("./Index" ,Message);
+
+            }
             var result = _articleApplication.Create(command);
-            return RedirectToPage("./Index");
+            Message = result.Message;
+            return RedirectToPage("./Index" , Message);
         }
     }
 }

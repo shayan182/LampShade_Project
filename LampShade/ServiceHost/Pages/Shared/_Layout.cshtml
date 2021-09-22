@@ -4,11 +4,18 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lampshapde Store</title>
+    @if (ViewData["Title"] != null)
+    {
+        <title>@ViewData["Title"] | فروشگاه لوازم دکوری</title>
+    }
+    else
+    {
+        <title>فروشگاه لوازم دکوری</title>
+    }
+    <meta name="kewords" content="@ViewData["keywords"]"/>
+    <meta name="description" content="@ViewData["metaDescription"]"/>
 
     <link rel="shortcut icon" href="~/AdminTheme/assets/images/favicon_1.ico">
-
-
     <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
     <link href="~/Theme/assets/css/style.css" rel="stylesheet">
     <link href="~/Theme/assets/css/Custom.css" rel="stylesheet">

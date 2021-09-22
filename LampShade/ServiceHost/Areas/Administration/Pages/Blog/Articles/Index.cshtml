@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{handler?}"
 @model ServiceHost.Areas.Administration.Pages.Blog.Articles.IndexModel
 @{
     Layout = "Shared/_AdminLayout";
@@ -48,6 +48,11 @@
             </div>
             <div class="panel-body">
                 <div class="row">
+                    @if (Model.Message != null)
+                    {
+                        <div class="alert alert-info">@Model.Message</div>
+
+                    }
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <table id="datatable" class="table table-striped table-bordered">
                             <thead>

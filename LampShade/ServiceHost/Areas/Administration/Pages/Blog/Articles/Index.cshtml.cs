@@ -9,6 +9,7 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
 {
     public class IndexModel : PageModel
     {
+        [TempData] public string Message { get; set; }
         public ArticleSearchModel SearchModel;
         public List<ArticleViewModel> Articles;
         public SelectList ArticleCategories;
@@ -22,8 +23,9 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
             _articleCategoryApplication = articleCategoryApplication;
         }
 
-        public void OnGet(ArticleSearchModel searchModel)
+        public void OnGet(ArticleSearchModel searchModel , string handler)
         {
+            Message = handler;
             ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");
             Articles = _articleApplication.Search(searchModel);
         }

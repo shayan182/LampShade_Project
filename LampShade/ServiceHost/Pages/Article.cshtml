@@ -1,7 +1,10 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ArticleModel
 @{
-    ViewData["Title"] = " صفحه اصلی";
+    ViewData["Title"] = Model.Article.Title;
+    ViewData["keywords"] = Model.Article.Keywords;
+    ViewData["metaDescription"] = Model.Article.MetaDescription;
+
 }
 
 
@@ -38,7 +41,7 @@
                             <div class="col-lg-9 order-1 order-lg-1">
                                 <div class="blog-page-content">
                                     <div class="blog-single-post-container">
-                                        <h3 class="post-title">@Model.Article.Title</h3>
+                                        <h2 class="post-title">@Model.Article.Title</h2>
                                         <div class="post-meta">
                                             <p>
                                                 <span>
@@ -258,7 +261,7 @@
                                 <div class="page-sidebar-wrapper">
                                     <div class="single-sidebar-widget">
 
-                                        <h4 class="single-sidebar-widget__title">گروه مقالات</h4>
+                                        <h3 class="single-sidebar-widget__title">گروه مقالات</h3>
                                         <ul class="single-sidebar-widget__category-list">
                                             @foreach (var category in Model.ArticleCategory)
                                             {

@@ -1,16 +1,18 @@
+using _0_Framework.Application;
 using BlogManagement.Application.Contract.Article;
 using BlogManagement.Application.Contract.ArticleCategory;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
 {
     public class EditModel : PageModel
     {
+        [TempData] public string Message { get; set; }
         public EditArticle Command;
         public SelectList ArticleCategories;
-
         private readonly IArticleApplication _articleApplication;
         private readonly IArticleCategoryApplication _articleCategoryApplication;
 
@@ -28,8 +30,14 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
 
         public IActionResult OnPost(EditArticle command)
         {
+            if (!ModelState.IsValid)
+            {
+                Message = ValidationMessages.Error;
+                return RedirectToPage("./Index" ,Message);
+            }
             var result = _articleApplication.Edit(command);
-            return RedirectToPage("./Index");
+            Message = result.Message;
+            return RedirectToPage("./Index" ,Message);
         }
     }
 }

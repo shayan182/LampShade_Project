@@ -30,8 +30,10 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.ArticleCategories
         public JsonResult OnPostCreate(CreateArticleCategory command)
         {
             if (!ModelState.IsValid)
+            {
                 Message = ValidationMessages.Error;
-
+                return new JsonResult(false);
+            }
             var result = _articleCategoryApplication.Create(command);
             Message = result.Message;
             return new JsonResult(result);
@@ -48,7 +50,7 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.ArticleCategories
             if (!ModelState.IsValid)
             {
                 Message = ValidationMessages.Error;
-                return new JsonResult("500");
+                return new JsonResult(false);
             }
 
             var result = _articleCategoryApplication.Edit(command);
