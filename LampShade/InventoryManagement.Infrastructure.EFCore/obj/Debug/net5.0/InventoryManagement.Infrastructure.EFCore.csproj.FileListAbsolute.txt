@@ -54,3 +54,31 @@ C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.genruntimeconfig.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.deps.json
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.runtimeconfig.json
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.runtimeconfig.dev.json
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfo.cs
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.CopyComplete
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.genruntimeconfig.cache

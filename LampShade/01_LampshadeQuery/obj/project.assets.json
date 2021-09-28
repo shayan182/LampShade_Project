@@ -130,11 +130,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/5.0.9": {
+      "Microsoft.EntityFrameworkCore/5.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.9",
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.9",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.10",
           "Microsoft.Extensions.Caching.Memory": "5.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "Microsoft.Extensions.Logging": "5.0.0",
@@ -149,7 +149,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -158,7 +158,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -167,10 +167,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Relational/5.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "compile": {
@@ -180,11 +180,11 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.9"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -1630,6 +1630,48 @@
           "bin/placeholder/BlogManagement.Infrastructure.EFCore.dll": {}
         }
       },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
       "DiscountManagement.Application.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1969,73 +2011,73 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb"
       ]
     },
-    "Microsoft.EntityFrameworkCore/5.0.9": {
-      "sha512": "mA+W/zpJZMp802xt2D+qBXrme4VFN+FlsrHdU6WG5HKDAnezClRksJhJicUR8XojnSPp9SgZKa1aIAasB5G67g==",
+    "Microsoft.EntityFrameworkCore/5.0.10": {
+      "sha512": "w5+5oewaQWDj4ChxxjLhdxIi98dK+kq7wvqnTco9PodkqHIDMfKk+5fQCQGLQrbhTdNaqyfYE1ApFP66mLXv6Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/5.0.9",
+      "path": "microsoft.entityframeworkcore/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/5.0.9": {
-      "sha512": "csbpDaXe9iQUkvDS3JZRAFfkgcRA7BlHE3u8feBLlYervmTAS1WIWPBZKMtH0a2GO5njwAABU3j+hZMCPYBrzQ==",
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.10": {
+      "sha512": "Ib85lZI/jxvsKcCS0GHVeqBv/JGzEvKa6HkoyxNu0EDmzDoh4OFl+dDKSx4Vr6I5YWT7nQj3sz6I4I0wHSN0xg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/5.0.9",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/5.0.9": {
-      "sha512": "eyuPLRFjcF7VWH8qy1uUuMrO02W15n9EXAXnYjCTWgH0SDIeZAa2XZXMZ9U3dvOPtvllMBy0obYA5SSbnpaNoQ==",
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.10": {
+      "sha512": "MBnG+g6jrmK72y4rU+4y2btHrl72i2q3zrXG3pj2zZGXXrG9Q4SlwL5ul0ASmQXYjhJ4VpDfd4o1/gdRPsa2jA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/5.0.9",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/5.0.9": {
-      "sha512": "rGXoju3HtnxtdYlH7/lOyVlKJ9fZSwORukVCN250Aub2gx9bEmfXlDHeM9Gw9bkeunLEx3OoqL6DAz9VW8YTJA==",
+    "Microsoft.EntityFrameworkCore.Relational/5.0.10": {
+      "sha512": "3l7GA+0y5E3kDOl85KRHhC0zXYA/CyQBQqDXvFGkqYzdPMRyWQkaQz2+yN4CN/SC+TVa48FPIAc2Wim8aWAliQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/5.0.9",
+      "path": "microsoft.entityframeworkcore.relational/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.5.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
-      "sha512": "WGKYDApx75QRQ8LecGoPi5tvwHM8CvHz383U4c9zfW2Pjz+yUNUL4XAzLRlkg9QyE7USGk4VnAVNS0sTXK4qVQ==",
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.10": {
+      "sha512": "HyZK8UIsoI14uIMF6eNlg4lCzWWxRrwBVJ8ZJztOqhqQSO/3TX03MzoPnz/yMN5Hqv+2lbEp29wnuUowjGEcng==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/5.0.9",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.5.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -6136,6 +6178,21 @@
       "path": "../BlogManagement.Infrastructrue.EFCore/BlogManagement.Infrastructure.EFCore.csproj",
       "msbuildProject": "../BlogManagement.Infrastructrue.EFCore/BlogManagement.Infrastructure.EFCore.csproj"
     },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj",
+      "msbuildProject": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj"
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Domain/CommentManagement.Domain.csproj",
+      "msbuildProject": "../CommentManagement.Domain/CommentManagement.Domain.csproj"
+    },
+    "CommentManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Infrastructure.EFCore/CommentManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../CommentManagement.Infrastructure.EFCore/CommentManagement.Infrastructure.EFCore.csproj"
+    },
     "DiscountManagement.Application.Contract/1.0.0": {
       "type": "project",
       "path": "../DiscountManagement.Application.Contract/DiscountManagement.Application.Contract.csproj",
@@ -6185,6 +6242,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "BlogManagement.Infrastructure.EFCore >= 1.0.0",
+      "CommentManagement.Infrastructure.EFCore >= 1.0.0",
       "DiscountManagement.Infrastructure.EFCore >= 1.0.0",
       "InventoryManagement.Infrastructure.EFCore >= 1.0.0",
       "SopManagement.Infrastructure.EFCore >= 1.0.0"
@@ -6219,6 +6277,9 @@
           "projectReferences": {
             "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+            },
+            "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
             },
             "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"

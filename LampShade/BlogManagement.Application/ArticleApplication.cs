@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using _0_Framework.Application;
 using BlogManagement.Application.Contract.Article;
 using BlogManagement.Domain.ArticleAgg;

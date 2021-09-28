@@ -675,7 +675,6 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\ne
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_AdminLayout.cshtml.g.cs
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_Menu.cshtml.g.cs
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Comment\Index.cshtml.g.cs
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Index.cshtml.g.cs
@@ -717,3 +716,14 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\ne
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Article.cshtml.g.cs
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\ArticleCategory.cshtml.g.cs
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Comment\Index.cshtml.g.cs
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.Configuration.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.Configuration.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb

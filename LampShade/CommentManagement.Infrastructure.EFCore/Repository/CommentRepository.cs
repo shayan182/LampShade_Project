@@ -1,18 +1,18 @@
-﻿using System.Collections.Generic;
+﻿
+using System.Collections.Generic;
 using System.Linq;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
-using Microsoft.EntityFrameworkCore;
-using ShopManagement.Application.Contracts.Comment;
-using ShopManagement.Domain.CommentAgg;
+using CommentManagement.Application.Contracts.Comment;
+using CommentManagement.Domain.CommentAgg;
 
-namespace SopManagement.Infrastructure.EFCore.Repository
+namespace CommentManagement.Infrastructure.EFCore.Repository
 {
     public class CommentRepository : RepositoryBase<long, Comment>, ICommentRepository
     {
-        private readonly ShopContext _context;
+        private readonly CommentContext _context;
 
-        public CommentRepository(ShopContext context) : base(context)
+        public CommentRepository(CommentContext context) : base(context)
         {
             _context = context;
         }
@@ -25,7 +25,10 @@ namespace SopManagement.Infrastructure.EFCore.Repository
                     Id = x.Id,
                     Name = x.Name,
                     Email = x.Email,
+                    Website = x.Website,
                     Message = x.Message,
+                    OwnerRecordId = x.OwnerRecordId,
+                    Type = x.Type,
                     IsCanceled = x.IsCanceled,
                     IsConfirmed = x.IsConfirmed,
                     CommentDate = x.CreationDate.ToFarsi()

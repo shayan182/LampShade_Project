@@ -144,10 +144,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/5.0.9": {
+      "Microsoft.EntityFrameworkCore/5.0.10": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.9",
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.9",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.10",
           "Microsoft.Extensions.Caching.Memory": "5.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "Microsoft.Extensions.Logging": "5.0.0",
@@ -157,41 +157,41 @@
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "5.0.9.0",
-            "fileVersion": "5.0.921.36501"
+            "assemblyVersion": "5.0.10.0",
+            "fileVersion": "5.0.1021.41011"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.10": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "5.0.9.0",
-            "fileVersion": "5.0.921.36501"
+            "assemblyVersion": "5.0.10.0",
+            "fileVersion": "5.0.1021.41011"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/5.0.9": {},
-      "Microsoft.EntityFrameworkCore.Relational/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.10": {},
+      "Microsoft.EntityFrameworkCore.Relational/5.0.10": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "5.0.9.0",
-            "fileVersion": "5.0.921.36501"
+            "assemblyVersion": "5.0.10.0",
+            "fileVersion": "5.0.1021.41011"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.10": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.9"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "5.0.9.0",
-            "fileVersion": "5.0.921.36501"
+            "assemblyVersion": "5.0.10.0",
+            "fileVersion": "5.0.1021.41011"
           }
         }
       },
@@ -1115,6 +1115,7 @@
       "01_LampshadeQuery/1.0.0": {
         "dependencies": {
           "BlogManagement.Infrastructure.EFCore": "1.0.0",
+          "CommentManagement.Infrastructure.EFCore": "1.0.0",
           "DiscountManagement.Infrastructure.EFCore": "1.0.0",
           "InventoryManagement.Infrastructure.EFCore": "1.0.0",
           "SopManagement.Infrastructure.EFCore": "1.0.0"
@@ -1127,7 +1128,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "5.0.9",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore": "5.0.9"
+          "Microsoft.EntityFrameworkCore": "5.0.10"
         },
         "runtime": {
           "0_Framework.dll": {}
@@ -1153,11 +1154,38 @@
       "BlogManagement.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
           "BlogManagement.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9"
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
         },
         "runtime": {
           "BlogManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
+        },
+        "runtime": {
+          "CommentManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "DiscountManagement.Application.Contract/1.0.0": {
@@ -1181,8 +1209,8 @@
       "DiscountManagement.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
           "DiscountManagement.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "SopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
@@ -1210,8 +1238,8 @@
       "InventoryManagement.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
           "InventoryManagement.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "SopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
@@ -1245,8 +1273,8 @@
       },
       "SopManagement.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "ShopManagement.Domain": "1.0.0"
         },
         "runtime": {
@@ -1310,40 +1338,40 @@
       "path": "microsoft.data.sqlclient.sni.runtime/2.0.1",
       "hashPath": "microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/5.0.9": {
+    "Microsoft.EntityFrameworkCore/5.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mA+W/zpJZMp802xt2D+qBXrme4VFN+FlsrHdU6WG5HKDAnezClRksJhJicUR8XojnSPp9SgZKa1aIAasB5G67g==",
-      "path": "microsoft.entityframeworkcore/5.0.9",
-      "hashPath": "microsoft.entityframeworkcore.5.0.9.nupkg.sha512"
+      "sha512": "sha512-w5+5oewaQWDj4ChxxjLhdxIi98dK+kq7wvqnTco9PodkqHIDMfKk+5fQCQGLQrbhTdNaqyfYE1ApFP66mLXv6Q==",
+      "path": "microsoft.entityframeworkcore/5.0.10",
+      "hashPath": "microsoft.entityframeworkcore.5.0.10.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/5.0.9": {
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-csbpDaXe9iQUkvDS3JZRAFfkgcRA7BlHE3u8feBLlYervmTAS1WIWPBZKMtH0a2GO5njwAABU3j+hZMCPYBrzQ==",
-      "path": "microsoft.entityframeworkcore.abstractions/5.0.9",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512"
+      "sha512": "sha512-Ib85lZI/jxvsKcCS0GHVeqBv/JGzEvKa6HkoyxNu0EDmzDoh4OFl+dDKSx4Vr6I5YWT7nQj3sz6I4I0wHSN0xg==",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.10",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/5.0.9": {
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eyuPLRFjcF7VWH8qy1uUuMrO02W15n9EXAXnYjCTWgH0SDIeZAa2XZXMZ9U3dvOPtvllMBy0obYA5SSbnpaNoQ==",
-      "path": "microsoft.entityframeworkcore.analyzers/5.0.9",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.9.nupkg.sha512"
+      "sha512": "sha512-MBnG+g6jrmK72y4rU+4y2btHrl72i2q3zrXG3pj2zZGXXrG9Q4SlwL5ul0ASmQXYjhJ4VpDfd4o1/gdRPsa2jA==",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.10",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/5.0.9": {
+    "Microsoft.EntityFrameworkCore.Relational/5.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rGXoju3HtnxtdYlH7/lOyVlKJ9fZSwORukVCN250Aub2gx9bEmfXlDHeM9Gw9bkeunLEx3OoqL6DAz9VW8YTJA==",
-      "path": "microsoft.entityframeworkcore.relational/5.0.9",
-      "hashPath": "microsoft.entityframeworkcore.relational.5.0.9.nupkg.sha512"
+      "sha512": "sha512-3l7GA+0y5E3kDOl85KRHhC0zXYA/CyQBQqDXvFGkqYzdPMRyWQkaQz2+yN4CN/SC+TVa48FPIAc2Wim8aWAliQ==",
+      "path": "microsoft.entityframeworkcore.relational/5.0.10",
+      "hashPath": "microsoft.entityframeworkcore.relational.5.0.10.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WGKYDApx75QRQ8LecGoPi5tvwHM8CvHz383U4c9zfW2Pjz+yUNUL4XAzLRlkg9QyE7USGk4VnAVNS0sTXK4qVQ==",
-      "path": "microsoft.entityframeworkcore.sqlserver/5.0.9",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.5.0.9.nupkg.sha512"
+      "sha512": "sha512-HyZK8UIsoI14uIMF6eNlg4lCzWWxRrwBVJ8ZJztOqhqQSO/3TX03MzoPnz/yMN5Hqv+2lbEp29wnuUowjGEcng==",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.10",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.5.0.10.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
       "type": "package",
@@ -1996,6 +2024,21 @@
       "sha512": ""
     },
     "BlogManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -111,3 +111,9 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\De
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\Debug\net5.0\ref\01_LampshadeQuery.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb

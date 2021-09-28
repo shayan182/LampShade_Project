@@ -42,3 +42,25 @@ C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infras
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\SopManagement.Infrastructure.EFCore.dll
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.genruntimeconfig.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.deps.json
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.runtimeconfig.json
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.runtimeconfig.dev.json
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ref\SopManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.AssemblyInfo.cs
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.csproj.CopyComplete
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\SopManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\SopManagement.Infrastructure.EFCore\obj\Debug\net5.0\SopManagement.Infrastructure.EFCore.genruntimeconfig.cache

@@ -22,3 +22,15 @@ C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\0_Framework\obj\Debu
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.dll
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csprojAssemblyReference.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.pdb
