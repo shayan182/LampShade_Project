@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using _0_Framework.Application;
+using _01_LampshadeQuery.Contracts.Comment;
 using _01_LampshadeQuery.Contracts.Product;
 using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
@@ -86,7 +87,8 @@ namespace _01_LampshadeQuery.Query
                     {
                         Id = x.Id,
                         Name = x.Name,
-                        Message = x.Message
+                        Message = x.Message,
+                        CreationDate = x.CreationDate.ToFarsi()
                     }).OrderByDescending(x => x.Id).Take(7).ToList();
 
             return product;

@@ -21,7 +21,7 @@ namespace SopManagement.Infrastructure.EFCore.Repository
 
         public string GetSlugBy(long id)
         {
-           return _context.ProductCategories.Select(x => new {x.Id, x.Slug}).FirstOrDefault(x => x.Id == id).Slug;
+           return _context.ProductCategories.Select(x => new {x.Id, x.Slug}).FirstOrDefault(x => x.Id == id)?.Slug;
         }
 
         public List<ProductCategoryViewModel> GetProductCategories()
