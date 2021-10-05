@@ -72,7 +72,6 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infr
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
-D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfo.cs
@@ -82,3 +81,4 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infr
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.genruntimeconfig.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache

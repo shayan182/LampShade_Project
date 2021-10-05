@@ -11,6 +11,7 @@ using InventoryManagement.Infrastructure.Configuration;
 using ShopManagement.Configuration;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
+using AccountManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
 
 namespace ServiceHost
@@ -32,10 +33,12 @@ namespace ServiceHost
             InventoryManagementBootstrapper.Configure(services , connectionString);
             BlogManagementBootstrapper.Configure(services , connectionString);
             CommentManagementBootstrapper.Configure(services , connectionString);
+            AccountManagementBootstrapper.Configure(services ,connectionString);
             services.AddSingleton(
                 HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 
             services.AddTransient<IFileUploader, FileUploader>();
+            services.AddTransient<IPasswordHasher, PasswordHasher>();
             services.AddDbContext<DiscountContext>();
             services.AddRazorPages();
         }

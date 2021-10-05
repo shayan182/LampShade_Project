@@ -76,7 +76,6 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Confi
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
-D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csprojAssemblyReference.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfo.cs
@@ -85,3 +84,4 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Confi
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Configuration.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.AssemblyReference.cache

@@ -72,7 +72,6 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrast
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
-D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
@@ -82,3 +81,4 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrast
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.EFCore.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache

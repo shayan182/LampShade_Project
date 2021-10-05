@@ -102,7 +102,6 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\De
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\System.Windows.Extensions.xml
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\System.Security.AccessControl.xml
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\System.Security.Principal.Windows.xml
-D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csprojAssemblyReference.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.AssemblyInfoInputs.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.AssemblyInfo.cs
@@ -117,3 +116,4 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\De
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csproj.AssemblyReference.cache

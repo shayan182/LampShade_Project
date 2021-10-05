@@ -28,6 +28,7 @@ namespace ServiceHost.Pages
         }
         public IActionResult OnPost(AddComment command , string productSlug)
         {
+            command.ParentId ??= 0;
             command.Type = CommentType.Product;
             if (!ModelState.IsValid)
             {
@@ -35,6 +36,7 @@ namespace ServiceHost.Pages
                 return RedirectToPage("/Product", new { Id = productSlug });
             }
             var result = _commentApplication.Add(command);
+            Message = result.Message;
             return RedirectToPage("/Product" ,new { Id = productSlug});
         }
     }

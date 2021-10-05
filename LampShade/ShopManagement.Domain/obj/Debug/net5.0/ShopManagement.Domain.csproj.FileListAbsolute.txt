@@ -32,7 +32,6 @@ C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Domai
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
 C:\Users\shayan\Desktop\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
-D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csprojAssemblyReference.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
@@ -49,3 +48,4 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\bi
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache

@@ -32,7 +32,8 @@ namespace ServiceHost.Pages
         }
         public IActionResult OnPost(AddComment command, string articleSlug)
         {
-            command.Type = CommentType.Article;
+            command.ParentId ??= 0;
+                command.Type = CommentType.Article;
             if (!ModelState.IsValid)
             {
                 Message = ValidationMessages.Error;

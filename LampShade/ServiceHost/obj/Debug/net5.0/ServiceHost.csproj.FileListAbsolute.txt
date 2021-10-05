@@ -638,7 +638,6 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\ne
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Domain.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
-D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.csprojAssemblyReference.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.AssemblyInfoInputs.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.AssemblyInfo.cs
@@ -727,3 +726,14 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\ne
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Domain.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.AssemblyReference.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Application.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Application.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
