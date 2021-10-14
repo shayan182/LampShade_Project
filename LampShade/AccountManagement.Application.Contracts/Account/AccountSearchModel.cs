@@ -5,7 +5,7 @@
         public string Fullname { get; set; }
         public string Username { get; set; }
         public string Mobile { get; set; }
-        public long RuleId { get; set; }
-        public string Rule { get; set; }
+        public long RoleId { get; set; }
+        public string Role { get; set; }
     }
 }

@@ -8,17 +8,18 @@ namespace AccountManagement.Domain.AccountAgg
         public string Username { get; private set; }
         public string Password { get; private set; }
         public string Mobile { get; private set; }
-        public long RuleId { get; private set; }
+        public long RoleId { get; private set; }
+        public Role.Role Role { get; private set; }
         public string ProfilePhoto { get; private set; }
 
         public Account(string fullname, string username, string password, string mobile,
-            long ruleId, string profilePhoto)
+            long roleId, string profilePhoto)
         {
             Fullname = fullname;
             Username = username;
             Password = password;
             Mobile = mobile;
-            RuleId = ruleId;
+            RoleId = roleId;
             ProfilePhoto = profilePhoto;
         }
         public void Edit(string fullname, string username,  string mobile,
@@ -27,7 +28,7 @@ namespace AccountManagement.Domain.AccountAgg
             Fullname = fullname;
             Username = username;
             Mobile = mobile;
-            RuleId = ruleId;
+            RoleId = ruleId;
             if(!string.IsNullOrWhiteSpace(profilePhoto))
                 ProfilePhoto = profilePhoto;
         }

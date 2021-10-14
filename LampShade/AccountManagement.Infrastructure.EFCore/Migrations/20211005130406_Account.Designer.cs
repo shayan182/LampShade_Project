@@ -51,7 +51,7 @@ namespace AccountManagement.Infrastructure.EFCore.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<long>("RuleId")
+                    b.Property<long>("RoleId")
                         .HasColumnType("bigint");
 
                     b.Property<string>("Username")

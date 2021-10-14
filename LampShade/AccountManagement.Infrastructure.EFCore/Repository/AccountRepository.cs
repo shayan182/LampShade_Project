@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
+using Microsoft.EntityFrameworkCore;
 
 namespace AccountManagement.Infrastructure.EFCore.Repository
 {
@@ -31,15 +33,17 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
         public List<AccountViewModel> Search(AccountSearchModel searchModel)
         {
             var query = _context.Accounts
+                .Include(x=>x.Role)
                 .Select(x => new AccountViewModel
                 {
                     Id = x.Id,
                     Fullname = x.Fullname,
                     Mobile = x.Mobile,
                     ProfilePhoto = x.ProfilePhoto,
-                    RuleId = x.RuleId,
-                    Rule = "مدیر سیستم",
-                    Username = x.Username
+                    RoleId = x.RoleId,
+                    Role = x.Role.Name,
+                    Username = x.Username,
+                    CreationDate = x.CreationDate.ToFarsi()
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Fullname))
                 query = query.Where(x => x.Fullname.Contains(searchModel.Fullname));
@@ -50,8 +54,8 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
             if (!string.IsNullOrWhiteSpace(searchModel.Mobile))
                 query = query.Where(x => x.Fullname.Contains(searchModel.Mobile));
 
-            if (searchModel.RuleId > 0)
-                query = query.Where(x => x.RuleId == searchModel.RuleId);
+            if (searchModel.RoleId > 0)
+                query = query.Where(x => x.RoleId == searchModel.RoleId);
 
             return query.OrderByDescending(x => x.Id).ToList();
         }
