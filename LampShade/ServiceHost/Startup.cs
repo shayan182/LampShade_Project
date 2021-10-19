@@ -13,6 +13,8 @@ using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using AccountManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 
 namespace ServiceHost
 {
@@ -27,6 +29,7 @@ namespace ServiceHost
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpContextAccessor();
             var connectionString = Configuration.GetConnectionString("LampShadeDb");
             ShopManagementBootstrapper.Configure(services , connectionString );
             DiscountManagementBootstrapper.Configure(services , connectionString);
@@ -39,7 +42,24 @@ namespace ServiceHost
 
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IPasswordHasher, PasswordHasher>();
+            services.AddTransient<IAuthHelper, AuthHelper>();
             services.AddDbContext<DiscountContext>();
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.Lax;
+            });
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
+                {
+                    o.LoginPath = new PathString("/Account");
+                    o.LogoutPath = new PathString("/Account");
+                    o.AccessDeniedPath = new PathString("/AccessDenied");
+                });
+
+
             services.AddRazorPages();
         }
 
@@ -55,8 +75,13 @@ namespace ServiceHost
                 app.UseHsts();
             }
 
+            app.UseAuthentication();
+
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
+
+            app.UseCookiePolicy();
 
             app.UseRouting();
 

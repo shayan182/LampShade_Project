@@ -16,6 +16,11 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
             _context = context;
         }
 
+        public Account GetBy(string username)
+        {
+           return _context.Accounts.FirstOrDefault(x => x.Username == username);
+        }
+
         public EditAccount GetDetails(long id)
         {
             return _context.Accounts

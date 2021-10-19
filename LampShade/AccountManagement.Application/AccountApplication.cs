@@ -10,11 +10,13 @@ namespace AccountManagement.Application
         private readonly IAccountRepository _accountRepository;
         private readonly IFileUploader _fileUploader;
         private readonly IPasswordHasher _passwordHasher;
-        public AccountApplication(IAccountRepository accountRepository, IFileUploader fileUploader, IPasswordHasher passwordHasher)
+        private readonly IAuthHelper _authHelper;
+        public AccountApplication(IAccountRepository accountRepository, IFileUploader fileUploader, IPasswordHasher passwordHasher, IAuthHelper authHelper)
         {
             _accountRepository = accountRepository;
             _fileUploader = fileUploader;
             _passwordHasher = passwordHasher;
+            _authHelper = authHelper;
         }
 
         public OperationResult Create(CreateAccount command)
@@ -47,7 +49,7 @@ namespace AccountManagement.Application
 
             const string path = "profilePhotos";
             var picturePath = _fileUploader.Uploader(command.ProfilePhoto, path);
-            account.Edit(command.Fullname, command.Username,  command.Mobile,
+            account.Edit(command.Fullname, command.Username, command.Mobile,
                 command.RuleId, picturePath);
 
             _accountRepository.SaveChanges();
@@ -71,6 +73,23 @@ namespace AccountManagement.Application
             return operation.Succeeded();
         }
 
+        public OperationResult Login(Login command)
+        {
+            var operation = new OperationResult();
+            var account = _accountRepository.GetBy(command.UserName);
+            if (account == null)
+                return operation.Failed(ApplicationMessages.WrongUserPass);
+            (bool verified, bool needsUpgrade) result = _passwordHasher.Check(account.Password, command.Password);
+
+            if (!result.verified)
+                operation.Failed(ApplicationMessages.WrongUserPass);
+
+            var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username);
+            _authHelper.Signin(authViewModel);
+
+            return operation.Succeeded();
+        }
+
         public EditAccount GetDetails(long id)
         {
             return _accountRepository.GetDetails(id);
@@ -79,6 +98,11 @@ namespace AccountManagement.Application
         public List<AccountViewModel> Search(AccountSearchModel searchModel)
         {
             return _accountRepository.Search(searchModel);
+        }
+
+        public void logout()
+        {
+            _authHelper.SignOut();
         }
     }
 }

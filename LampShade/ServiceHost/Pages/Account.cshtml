@@ -29,6 +29,11 @@
                     <div class="page-content-wrapper">
                         <div class="row">
                             <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6">
+                                @if (Model.Message != null)
+                                {
+                                    <div class="alert alert-danger">@Model.Message</div>
+
+                                }
                                 <form method="post" asp-page-handler="Login">
                                     <div class="login-form">
                                         <h4 class="login-title">ورود</h4>
