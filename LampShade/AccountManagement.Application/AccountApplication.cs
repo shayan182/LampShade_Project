@@ -19,7 +19,7 @@ namespace AccountManagement.Application
             _authHelper = authHelper;
         }
 
-        public OperationResult Create(CreateAccount command)
+        public OperationResult Register(RegisterAccount command)
         {
             var operation = new OperationResult();
 
@@ -82,7 +82,7 @@ namespace AccountManagement.Application
             (bool verified, bool needsUpgrade) result = _passwordHasher.Check(account.Password, command.Password);
 
             if (!result.verified)
-                operation.Failed(ApplicationMessages.WrongUserPass);
+                return operation.Failed(ApplicationMessages.WrongUserPass);
 
             var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username);
             _authHelper.Signin(authViewModel);

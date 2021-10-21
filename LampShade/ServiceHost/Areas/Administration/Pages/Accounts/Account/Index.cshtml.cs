@@ -30,17 +30,17 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
         }
         public IActionResult OnGetCreate()
         {
-            var command = new CreateAccount()
+            var command = new RegisterAccount()
             {
                 Roles = _roleApplication.List()
             };
             return Partial("./Create", command);
         }
-        public JsonResult OnPostCreate(CreateAccount command)
+        public JsonResult OnPostCreate(RegisterAccount command)
         {
             if (!ModelState.IsValid)
                 Message = ValidationMessages.Error;
-            var result = _accountApplication.Create(command);
+            var result = _accountApplication.Register(command);
             Message = result.Message;
             return new JsonResult(result);
         }

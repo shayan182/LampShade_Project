@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Domain;
+using AccountManagement.Domain.Role;
 
 namespace AccountManagement.Domain.AccountAgg
 {
@@ -20,16 +21,22 @@ namespace AccountManagement.Domain.AccountAgg
             Password = password;
             Mobile = mobile;
             RoleId = roleId;
+
+            if (roleId == 0)
+                RoleId = 2;
+
             ProfilePhoto = profilePhoto;
         }
-        public void Edit(string fullname, string username,  string mobile,
-                   long ruleId, string profilePhoto)
+
+        public void Edit(string fullname, string username, string mobile,
+            long roleId, string profilePhoto)
         {
             Fullname = fullname;
             Username = username;
             Mobile = mobile;
-            RoleId = ruleId;
-            if(!string.IsNullOrWhiteSpace(profilePhoto))
+            RoleId = roleId;
+
+            if (!string.IsNullOrWhiteSpace(profilePhoto))
                 ProfilePhoto = profilePhoto;
         }
 

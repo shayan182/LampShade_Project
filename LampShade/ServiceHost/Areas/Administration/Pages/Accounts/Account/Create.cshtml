@@ -1,4 +1,4 @@
-﻿@model AccountManagement.Application.Contracts.Account.CreateAccount
+﻿@model AccountManagement.Application.Contracts.Account.RegisterAccount
 @{
 }
 
@@ -50,7 +50,7 @@
                     <label asp-for="RuleId" class="control-label">نقش </label>
                     <select class="form-control" asp-for="RuleId"
                             asp-items='new SelectList(Model.Roles, "Id", "Name")'>
-                        <option value="0">گروه محصول</option>
+                        <option value="0">نقش</option>
                     </select>
                     <span asp-validation-for="RuleId" class="error"></span>
                 </div>

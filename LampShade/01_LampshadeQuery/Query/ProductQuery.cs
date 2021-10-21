@@ -174,8 +174,7 @@ namespace _01_LampshadeQuery.Query
 
             var query = _context.Products
                 .Include(x => x.Category)
-                .Include(x=>x.)
-                .Select(x => new ProductQueryModel()
+                .Select(x => new ProductQueryModel
                 {
                     Id = x.Id,
                     Name = x.Name,
