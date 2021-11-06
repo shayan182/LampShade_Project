@@ -77,6 +77,7 @@ namespace ServiceHost
 
 
             services.AddRazorPages()
+                .AddMvcOptions(x=>x.Filters.Add<SecurityPageFilter>())
                 .AddRazorPagesOptions(options =>
                 {
                     options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");

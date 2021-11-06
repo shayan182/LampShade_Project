@@ -12,19 +12,19 @@ namespace ShopManagement.Configuration.Permissions
                 {
                     "Product", new List<PermissionDto>
                     {
-                        new PermissionDto(10, "ListProducts"),
-                        new PermissionDto(10, "SearchProducts"),
-                        new PermissionDto(10, "EditProducts"),
-                        new PermissionDto(10, "CreateProducts")
+                        new PermissionDto(ShopPermissions.ListProducts, "ListProducts"),
+                        new PermissionDto(ShopPermissions.SearchProducts, "SearchProducts"),
+                        new PermissionDto(ShopPermissions.EditProduct, "EditProducts"),
+                        new PermissionDto(ShopPermissions.CreateProduct, "CreateProducts")
                     }
                 },
                 {
                     "ProductCategory", new List<PermissionDto>
                     {
-                        new PermissionDto(20, "ListProductCategories"),
-                        new PermissionDto(21, "SearchProductCategories"),
-                        new PermissionDto(22, "EditProductCategories"),
-                        new PermissionDto(23, "CreateProductCategories")
+                        new PermissionDto(ShopPermissions.ListProductCategories, "ListProductCategories"),
+                        new PermissionDto(ShopPermissions.SearchProductCategories, "SearchProductCategories"),
+                        new PermissionDto(ShopPermissions.EditProductCategory, "EditProductCategories"),
+                        new PermissionDto(ShopPermissions.CreateProductCategory, "CreateProductCategories")
                     }
                 }
             };
