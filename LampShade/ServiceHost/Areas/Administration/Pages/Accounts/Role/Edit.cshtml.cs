@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using _0_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Role;
+using AccountManagement.Infrastructure.Configuration.Permissions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -11,7 +12,7 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Role
     public class EditModel : PageModel
     {
         public EditRole Command;
-        public List<SelectListItem> Permissions = new List<SelectListItem>();
+        public List<SelectListItem> Permissions = new();
         private readonly IRoleApplication _roleApplication;
         private readonly IEnumerable<IPermissionExposer> _exposers;
 
@@ -48,6 +49,8 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Role
                 }
             }
         }
+
+        [NeedsPermission(AccountPermissions.EditRole)]
         public IActionResult OnPost(EditRole command)
         { 
             var result = _roleApplication.Edit(command);

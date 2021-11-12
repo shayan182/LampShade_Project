@@ -5,6 +5,8 @@ using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductPicture;
 using System.Collections.Generic;
 using _0_Framework.Application;
+using _0_Framework.Infrastructure;
+using ShopManagement.Configuration.Permissions;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
 {
@@ -24,6 +26,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
             _productPictureApplication = productPictureApplication;
         }
 
+        [NeedsPermission(ShopPermissions.ListProductPicture)]
         public void OnGet(ProductPictureSearchModel searchModel)
         {
             Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
@@ -39,6 +42,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
             return Partial("./Create", command);
         }
 
+        [NeedsPermission(ShopPermissions.CreateProductPicture)]
         public JsonResult OnPostCreate(CreateProductPicture command)
         {
             if (!ModelState.IsValid)
@@ -56,6 +60,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
             return Partial("Edit", productPicture);
         }
 
+        [NeedsPermission(ShopPermissions.EditProductPicture)]
         public JsonResult OnPostEdit(EditProductPicture command)
         {
             if (!ModelState.IsValid)
@@ -65,6 +70,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
             return new JsonResult(result);
         }
 
+        [NeedsPermission(ShopPermissions.RemoveProductPicture)]
         public IActionResult OnGetRemove(long id)
         {
             var result = _productPictureApplication.Remove(id);
@@ -78,6 +84,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
             return RedirectToPage("./Index");
         }
 
+        [NeedsPermission(ShopPermissions.RestoreProductPicture)]
         public IActionResult OnGetRestore(long id)
         {
             var result = _productPictureApplication.Restore(id);

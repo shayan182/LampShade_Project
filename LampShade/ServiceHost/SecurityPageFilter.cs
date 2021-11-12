@@ -2,6 +2,7 @@
 using System.Reflection;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace ServiceHost
@@ -33,7 +34,7 @@ namespace ServiceHost
             if (accountPermissions.All(x =>  x != handlerPermission.Permission))
                 context.HttpContext.Response.Redirect("/Account");
 
-        }
+            }
 
         public void OnPageHandlerExecuted(PageHandlerExecutedContext context)
         {

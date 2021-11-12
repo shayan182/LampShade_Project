@@ -26,6 +26,27 @@ namespace ShopManagement.Configuration.Permissions
                         new PermissionDto(ShopPermissions.EditProductCategory, "EditProductCategories"),
                         new PermissionDto(ShopPermissions.CreateProductCategory, "CreateProductCategories")
                     }
+                },
+                {
+                    "Slide", new List<PermissionDto>
+                    {
+                        new PermissionDto(ShopPermissions.CreateSlide, "CreateSlide"),
+                        new PermissionDto(ShopPermissions.EditSlide, "EditSlide"),
+                        new PermissionDto(ShopPermissions.ListSlide, "ListSlide"),
+                        new PermissionDto(ShopPermissions.RemoveSlide, "RemoveSlide"),
+                        new PermissionDto(ShopPermissions.RestoreSlide, "RestoreSlide")
+                    }
+                },
+                {
+                    "ProductPicture", new List<PermissionDto>
+                    {
+                        new PermissionDto(ShopPermissions.CreateProductPicture, "CreateProductPicture"),
+                        new PermissionDto(ShopPermissions.EditProductPicture, "EditProductPicture"),
+                        new PermissionDto(ShopPermissions.ListProductPicture, "ListProductPicture"),
+                        new PermissionDto(ShopPermissions.SearchProductPicture, "SearchProductPicture"),
+                        new PermissionDto(ShopPermissions.RemoveProductPicture, "RemoveProductPicture"),
+                        new PermissionDto(ShopPermissions.RestoreProductPicture, "RestoreProductPicture")
+                    }
                 }
             };
         }

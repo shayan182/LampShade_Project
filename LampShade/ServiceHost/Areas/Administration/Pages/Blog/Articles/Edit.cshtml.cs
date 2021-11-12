@@ -1,6 +1,8 @@
 using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contract.Article;
 using BlogManagement.Application.Contract.ArticleCategory;
+using BlogManagement.Infrastructure.Configuration.Permissions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -28,6 +30,7 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
             ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id", "Name");
         }
 
+        [NeedsPermission(BlogPermissions.EditArticle)]
         public IActionResult OnPost(EditArticle command)
         {
             if (!ModelState.IsValid)

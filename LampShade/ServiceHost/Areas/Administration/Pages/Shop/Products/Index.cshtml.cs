@@ -41,6 +41,8 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             var command = new CreateProduct { Categories = _categoryApplication.GetProductCategories() };
             return Partial("./Create", command);
         }
+
+        [NeedsPermission(ShopPermissions.CreateProduct)]
         public JsonResult OnPostCreate(CreateProduct command)
         {
             if (!ModelState.IsValid)
@@ -50,8 +52,6 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             return new JsonResult(result);
         }
 
-        [NeedsPermission(ShopPermissions.EditProduct)]
-
         public IActionResult OnGetEdit(long id)
         {
             var product = _productApplication.GetDetails(id);
@@ -59,6 +59,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             return Partial("Edit", product);
         }
 
+        [NeedsPermission(ShopPermissions.EditProduct)]
         public JsonResult OnPostEdit(EditProduct command)
         {
             if (!ModelState.IsValid)

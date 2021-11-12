@@ -1,11 +1,12 @@
 ﻿@page "{handler?}"
+@using BlogManagement.Infrastructure.Configuration.Permissions
 @model ServiceHost.Areas.Administration.Pages.Blog.Articles.IndexModel
 @{
     Layout = "Shared/_AdminLayout";
     ViewData["title"] = "مدیریت مقالات";
 }
 
-<div class="row">
+<div class="row" permission="@BlogPermissions.CreateArticle">
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
@@ -14,7 +15,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row" permission="@BlogPermissions.SearchArticle">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -40,7 +41,7 @@
     </div>
 </div>
 
-<div class="row" id="ProductCategoriesDiv">
+<div class="row" id="ProductCategoriesDiv" permission="@BlogPermissions.ListArticle">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -79,7 +80,7 @@
                                         <td>@item.ShortDescription</td>
                                         <td>@item.PublishDate</td>
                                         <td>
-                                            <a class="btn btn-warning pull-right m-rl-5" asp-page="./Edit" asp-route-id="@item.Id">
+                                            <a permission="@BlogPermissions.EditArticle" class="btn btn-warning pull-right m-rl-5" asp-page="./Edit" asp-route-id="@item.Id">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
                                         </td>
