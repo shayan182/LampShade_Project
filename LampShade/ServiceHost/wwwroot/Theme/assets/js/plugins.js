@@ -131,7 +131,7 @@
 		return result;
 	};
 
-	config.defaults = {};
+	config.defaults = { path: '/'};
 
 	$.removeCookie = function (key, options) {
 		// Must not alter options, thus extending a fresh object...

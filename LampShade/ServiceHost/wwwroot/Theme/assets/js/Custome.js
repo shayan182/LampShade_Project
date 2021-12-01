@@ -1,5 +1,6 @@
-﻿const cookieName = "cart-Item";
+﻿const cookieName = "cart-items";
 function addToCart(id, name, price, picture) {
+    debugger;
     let products = $.cookie(cookieName);
     if (products === undefined) {
         products = [];
@@ -21,7 +22,7 @@ function addToCart(id, name, price, picture) {
         }
         products.push(product);
     }
-    $.cookie(cookieName, JSON.stringify(products, { expires: 2, path: "/" }));
+    $.cookie(cookieName, JSON.stringify(products, { expires: 2, path: '/' }));
     updateCart();
 }
 function updateCart() {
@@ -64,4 +65,15 @@ function removeFromCart(id) {
 
     $.cookie(cookieName, JSON.stringify(products, { expires: 2, path: "/" }));
     updateCart(); 
+}
+function changeCartItemCount(id, totalId, count) {
+    let products = $.cookie(cookieName);
+    products = JSON.parse(products);
+    var productIndex = products.findIndex(x => x.id == id);
+    products[productIndex].count = count;
+    var product = products[productIndex];
+    const newPrice = parseInt(product.price) * parseInt(count);
+    $(`#${totalId}`).text(newPrice);
+    $.cookie(cookieName, JSON.stringify(products, { expires: 2, path: '/' }));
+    updateCart();
 }
