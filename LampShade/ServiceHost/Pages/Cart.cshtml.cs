@@ -27,11 +27,10 @@ namespace ServiceHost.Pages
             var serializer = new JavaScriptSerializer();
             var value = Request.Cookies[CookieName];
             var cartItems = serializer.Deserialize<List<CartItem>>(value);
+            foreach (var item in cartItems)
+                item.CalculateTotalItemPrice();
+            
             CartItems = _productQuery.CheckInventoryStatus(cartItems);
-            foreach (var item in CartItems)
-            {
-                item.TotalItemPrice = item.Price * item.Count;
-            }
         }
         public IActionResult OnGetRemoveFromCart(long id)
         {
