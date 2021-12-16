@@ -13,7 +13,7 @@ namespace SopManagement.Infrastructure.EFCore
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<ProductPicture> ProductPictures { get; set; }
         public DbSet<Slide> Slides { get; set; }
-
+       // public DbSet<ShopContext> Order { get; set; }
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {
         }

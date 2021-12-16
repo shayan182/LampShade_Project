@@ -222,7 +222,7 @@ namespace _01_LampshadeQuery.Query
         public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
         {
             var inventory = _inventoryContext.Inventory.ToList();
-            var instorck = inventory.Where(x => x.InStock);
+
             foreach (var item in cartItems.Where(cartItem =>
                 inventory.Any(x => x.ProductId == cartItem.Id && x.InStock)))
             {

@@ -37,7 +37,7 @@ namespace _01_LampshadeQuery.Query
 
             foreach (var item in cartItems)
             {
-                if (currentAccountRole == Roles.ColleagueUser)
+                if(currentAccountRole == Roles.ColleagueUser)
                 {
                     var colleagueDiscount = colleagueDiscounts.FirstOrDefault(x => x.ProductId == item.Id);
                     if (colleagueDiscount != null)
