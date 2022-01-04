@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D4BZv0IH+SA7cEVOtfYLzInQiiXnbTNwMR7wIADHDzTQ8B98zJLGTmMSbDJFOGiAs7w5LlLJD2xtswnLFouJIw==",
+  "dgSpecHash": "7aP3BP2qKzIzrM4tAw235UJa/AOqNFaJcN/s9Z/rSiRr1ngdtbOGK3/8YPtD6005POBQ/5RvoxDBPK0jjFvoMA==",
   "success": true,
   "projectFilePath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\SopManagement.Infrastructure.EFCore\\SopManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\shayan\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

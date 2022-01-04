@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using _0_Framework.Application;
-using Microsoft.Extensions.Configuration;
+﻿using _0_Framework.Application;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
 
@@ -19,7 +17,7 @@ namespace ShopManagement.Application
         public long PlaceOrder(Cart cart)
         {
             var accountId = _authHelper.CurrentAccountId();
-            var order = new Order(accountId , cart.TotalMount , cart.DiscountAmount , cart.PayAmount );
+            var order = new Order(accountId, cart.TotalMount, cart.DiscountAmount, cart.PayAmount);
 
             foreach (var cartItem in cart.Items)
             {
@@ -31,13 +29,19 @@ namespace ShopManagement.Application
             return order.Id;
         }
 
-        public void PaymentSucceeded(long orderId, long refId)
+        public double GetAmountBy(long id)
+        {
+            return _orderRepository.GetAmountBy(id);
+        }
+
+        public string PaymentSucceeded(long orderId, long refId)
         {
             var order = _orderRepository.Get(orderId);
             order.PaymentSucceeded(orderId);
             var issueTrackingNo = CodeGenerator.Generate("s");
             order.SetIssueTrackingNo(issueTrackingNo);
             _orderRepository.SaveChanges();
+            return issueTrackingNo;
         }
     }
 }

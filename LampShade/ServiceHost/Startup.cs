@@ -12,6 +12,7 @@ using InventoryManagement.Infrastructure.Configuration;
 using ShopManagement.Configuration;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
+using _0_Framework.Application.ZarinPal;
 using _0_Framework.Infrastructure;
 using AccountManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
@@ -45,12 +46,14 @@ namespace ServiceHost
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IAuthHelper, AuthHelper>();
+            services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
+
             services.AddDbContext<DiscountContext>();
 
             //have a error during set the CookiePolicyOptions (does not contain options in this class)
             services.Configure<CookiePolicyOptions>(options =>
             {
-                //options.CheckConsentNeeded = context => true;
+                options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.Lax;
             });
 

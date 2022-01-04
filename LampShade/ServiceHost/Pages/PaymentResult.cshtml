@@ -1,0 +1,56 @@
+﻿@page
+@model ServiceHost.Pages.PaymentResultModel
+@{
+    ViewData["Title"] = "نتیجه پرداخت";
+}
+
+<div class="breadcrumb-area section-space--half">
+    <div class="container wide">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-wrapper breadcrumb-bg" style="height: 100px">
+                    <div class="breadcrumb-content">
+                        <h2 class="breadcrumb-content__title">نتیجه خرید </h2>
+                        <ul class="breadcrumb-content__page-map">
+                            <li>
+                                <a asp-page="./index">صفحه اصلی</a>
+                            </li>
+                            <li class="active">نتیجه خرید</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-content-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                @if (Model.PaymentResult.IsSuccessful)
+                {
+                <div class="alert alert-success" style="width: 30vw; margin: auto; margin-bottom: 80px; height: 15vh">
+                    <div class="icon icon--order-success svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="72px" height="72px">
+                            <g fill="none" stroke="#8EC343" stroke-width="2">
+                                <circle cx="36" cy="36" r="35" style="stroke-dasharray:240px, 240px; stroke-dashoffset: 480px;"></circle>
+                                <path d="M17.417,37.778l9.93,9.909l25.444-25.393" style="stroke-dasharray:50px, 50px; stroke-dashoffset: 0px;"></path>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <p style="font-size: 1.1vw;">@Model.PaymentResult.Message</p>
+                    <span>شماره پیگیری:@Model.PaymentResult.IssueTrackingNo</span>
+                </div>
+                }
+                else
+                {
+                <div class="alert alert-warning">
+                    <p>@Model.PaymentResult.Message</p>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

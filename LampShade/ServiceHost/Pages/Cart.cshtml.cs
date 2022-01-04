@@ -27,10 +27,13 @@ namespace ServiceHost.Pages
             var serializer = new JavaScriptSerializer();
             var value = Request.Cookies[CookieName];
             var cartItems = serializer.Deserialize<List<CartItem>>(value);
-            foreach (var item in cartItems)
-                item.CalculateTotalItemPrice();
-            
-            CartItems = _productQuery.CheckInventoryStatus(cartItems);
+            if (cartItems != null)
+            {
+                foreach (var item in cartItems)
+                    item.CalculateTotalItemPrice();
+
+                CartItems = _productQuery.CheckInventoryStatus(cartItems);
+            }
         }
         public IActionResult OnGetRemoveFromCart(long id)
         {
@@ -38,10 +41,10 @@ namespace ServiceHost.Pages
             var value = Request.Cookies[CookieName];
             Response.Cookies.Delete(CookieName);
             var cartItems = serializer.Deserialize<List<CartItem>>(value);
-            var itemToRemove = cartItems.FirstOrDefault(x=>x.Id == id);
+            var itemToRemove = cartItems.FirstOrDefault(x => x.Id == id);
             cartItems.Remove(itemToRemove);
-            var options = new CookieOptions{Expires = DateTime.Now.AddDays(2)};
-            Response.Cookies.Append(CookieName , serializer.Serialize(cartItems) , options);
+            var options = new CookieOptions { Expires = DateTime.Now.AddDays(2) };
+            Response.Cookies.Append(CookieName, serializer.Serialize(cartItems), options);
             return RedirectToPage("/Cart");
         }
 

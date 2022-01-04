@@ -77,3 +77,4 @@ function changeCartItemCount(id, totalId, count) {
     $.cookie(cookieName, JSON.stringify(products, { expires: 2, path: '/' }));
     updateCart();
 }
+
