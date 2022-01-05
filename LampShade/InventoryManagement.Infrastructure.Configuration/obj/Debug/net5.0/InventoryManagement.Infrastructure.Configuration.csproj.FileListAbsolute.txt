@@ -85,3 +85,11 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infr
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb

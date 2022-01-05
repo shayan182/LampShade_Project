@@ -17,7 +17,9 @@ using ShopManagement.Domain.OrderAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
+using ShopManagement.Domain.Services;
 using ShopManagement.Domain.SlideAgg;
+using ShopManagement.Infrastructure.InventoryAcl;
 using SopManagement.Infrastructure.EFCore;
 using SopManagement.Infrastructure.EFCore.Repository;
 
@@ -47,6 +49,9 @@ namespace ShopManagement.Configuration
             services.AddTransient<IProductQuery, ProductQuery>();
             services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
             services.AddTransient<ICartCalculatorService, CartCalculatorService>();
+            
+            services.AddTransient<IShopInventory , ShopInventoryAcl>();
+
             services.AddSingleton<ICartService, CartService>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));

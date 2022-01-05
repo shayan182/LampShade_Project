@@ -117,6 +117,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountManagement.Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountManagement.Infrastructure.Configuration", "AccountManagement.Infrastructure.Configuration\AccountManagement.Infrastructure.Configuration.csproj", "{38185E3C-B1ED-403D-A9EC-8C8976FBC3DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Infrastructure.InventoryAcl", "ShopManagement.Infrastructure.InventoryAcl\ShopManagement.Infrastructure.InventoryAcl.csproj", "{30D0D2F9-E2E7-483F-AE5A-C69C4607E699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{38185E3C-B1ED-403D-A9EC-8C8976FBC3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38185E3C-B1ED-403D-A9EC-8C8976FBC3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38185E3C-B1ED-403D-A9EC-8C8976FBC3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D0D2F9-E2E7-483F-AE5A-C69C4607E699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D0D2F9-E2E7-483F-AE5A-C69C4607E699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D0D2F9-E2E7-483F-AE5A-C69C4607E699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D0D2F9-E2E7-483F-AE5A-C69C4607E699}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -308,6 +314,7 @@ Global
 		{B2C049C9-B2FF-4753-ACDC-8248E0F6B351} = {E0056CE8-A8DD-4C4D-A23F-728D48BA2D4C}
 		{81ED9E64-DCCC-4095-B6B6-D48F49B5D44A} = {B2C049C9-B2FF-4753-ACDC-8248E0F6B351}
 		{38185E3C-B1ED-403D-A9EC-8C8976FBC3DA} = {B2C049C9-B2FF-4753-ACDC-8248E0F6B351}
+		{30D0D2F9-E2E7-483F-AE5A-C69C4607E699} = {83BE8224-30C3-47CA-ACAA-8A76AA8F524D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0376A50F-BD3F-4190-A19E-2A0440300246}

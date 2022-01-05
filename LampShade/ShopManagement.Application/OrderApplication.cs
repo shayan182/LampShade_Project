@@ -1,23 +1,27 @@
 ﻿using _0_Framework.Application;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
+using ShopManagement.Domain.Services;
 
 namespace ShopManagement.Application
 {
     public class OrderApplication : IOrderApplication
     {
-        private readonly IOrderRepository _orderRepository;
+
         private readonly IAuthHelper _authHelper;
-        public OrderApplication(IOrderRepository orderRepository, IAuthHelper authHelper)
+        private readonly IOrderRepository _orderRepository;
+        private readonly IShopInventory _shopInventory;
+        public OrderApplication(IOrderRepository orderRepository, IAuthHelper authHelper, IShopInventory shopInventory)
         {
             _orderRepository = orderRepository;
             _authHelper = authHelper;
+            _shopInventory = shopInventory;
         }
 
         public long PlaceOrder(Cart cart)
         {
             var accountId = _authHelper.CurrentAccountId();
-            var order = new Order(cart.PaymentMethod,accountId, cart.TotalMount, cart.DiscountAmount, cart.PayAmount);
+            var order = new Order(cart.PaymentMethod, accountId, cart.TotalMount, cart.DiscountAmount, cart.PayAmount);
 
             foreach (var cartItem in cart.Items)
             {
@@ -40,8 +44,10 @@ namespace ShopManagement.Application
             order.PaymentSucceeded(orderId);
             var issueTrackingNo = CodeGenerator.Generate("s");
             order.SetIssueTrackingNo(issueTrackingNo);
+            if (!_shopInventory.ReduceFromInventory(order.Items)) return "";
             _orderRepository.SaveChanges();
             return issueTrackingNo;
+
         }
     }
 }

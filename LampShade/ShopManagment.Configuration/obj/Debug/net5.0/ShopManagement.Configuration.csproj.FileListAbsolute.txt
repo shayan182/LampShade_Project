@@ -121,3 +121,13 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configurat
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\CommentManagement.Domain.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.AssemblyReference.cache
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\AccountManagement.Application.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\AccountManagement.Application.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ShopManagment.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb

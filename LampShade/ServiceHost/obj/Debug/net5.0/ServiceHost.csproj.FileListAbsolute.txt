@@ -754,3 +754,6 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\ne
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Checkout.cshtml.g.cs
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\RestSharp.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\PaymentResult.cshtml.g.cs
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
