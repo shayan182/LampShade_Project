@@ -64,13 +64,13 @@ namespace _01_LampshadeQuery.Query
             var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
             if (productInventory != null)
             {
+                product.IsInStock = productInventory.InStock;
                 var price = productInventory.UnitPrice;
                 product.Price = price.ToMoney();
                 product.DoublePrice = price;
                 var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
                 if (discount != null)
                 {
-                    product.IsInStock = productInventory.InStock;
                     var discountRate = discount.DiscountRate;
                     product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
                     product.DiscountRate = discountRate;

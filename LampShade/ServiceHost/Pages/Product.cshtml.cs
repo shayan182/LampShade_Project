@@ -1,4 +1,3 @@
-using System.Data;
 using _0_Framework.Application;
 using _01_LampshadeQuery.Contracts.Product;
 using CommentManagement.Application.Contracts.Comment;
@@ -24,7 +23,6 @@ namespace ServiceHost.Pages
         public void OnGet(string id)
         {
             Product = _productQuery.GetProductDetails(id);
-
         }
         public IActionResult OnPost(AddComment command , string productSlug)
         {

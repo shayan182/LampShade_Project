@@ -44,23 +44,29 @@ namespace ServiceHost.Pages
             _cartService.Set(Cart);
         }
 
-        public IActionResult OnGetPay()
+       
+        public IActionResult OnPostPay(int paymentMethod)
         {
             var cart = _cartService.Get();
-
+            cart.SetPaymentMethod(paymentMethod);
             var result = _productQuery.CheckInventoryStatus(cart.Items);
             if (result.Any(x => !x.IsInStock))
                 return RedirectToPage("./Cart");
 
             var orderId = _orderApplication.PlaceOrder(cart);
+            if (cart.PaymentMethod == 1)
+            {
+                var paymentResponse = _zarinPal.CreatePaymentRequest(
+                    cart.PayAmount.ToString(CultureInfo.InvariantCulture), "", "",
+                    "خرید از درگاه لوازم خانگی و دکوری", orderId);
 
-            var paymentResponse = _zarinPal.CreatePaymentRequest(
-                cart.PayAmount.ToString(CultureInfo.InvariantCulture), "", "",
-                "خرید از درگاه لوازم خانگی و دکوری", orderId);
 
+                return Redirect(
+                    $"https://{_zarinPal.Prefix}.zarinpal.com/pg/StartPay/{paymentResponse.Authority}");
+            }
 
-            return Redirect(
-                $"https://{_zarinPal.Prefix}.zarinpal.com/pg/StartPay/{paymentResponse.Authority}");
+            var paymentResult = new PaymentResult();
+            return RedirectToPage("/PaymentResult", paymentResult.Succeeded("سفارش شما با موفقیت ثبت شد. پس از تماس کارشناسان ما سفارش شما ارسال خواهد شد." ,null));
         }
 
         public IActionResult OnGetCallBack([FromQuery] string authority, [FromQuery] string status,
