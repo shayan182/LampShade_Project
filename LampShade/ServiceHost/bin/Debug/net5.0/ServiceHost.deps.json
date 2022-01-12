@@ -39,6 +39,7 @@
           "CommentManagement.Infrastructure.Configuration": "1.0.0",
           "DiscountManagement.Configuration": "1.0.0",
           "InventoryManagement.Infrastructure.Configuration": "1.0.0",
+          "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Nancy": "2.0.0",

@@ -34,11 +34,15 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label class="sr-only" asp-for="SearchModel.IsCanceled">جست و جو در لغو شده ها </label>
+                        <label class="" asp-for="SearchModel.IsCanceled">جست و جو در لغو شده ها </label>
                         <input class="form-control" asp-for="SearchModel.IsCanceled" />
                     </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+                    <p class="text-info" style="
+                                                margin: 17px;
+                                                font-size: 16px;
+                                            ">(لیست زیر در حالت پیش فرض، سفارش های لغو شده را نمایش نمی دهد.)</p>
                 </form>
             </div>
         </div>
@@ -92,16 +96,20 @@
                                             {
                                                 <span class="text-success">پرداخت شده </span>
                                             }
+                                            @if (!item.IsPaid && !item.IsCanceled)
+                                            {
+                                                <span class="text-warning">در انتظار</span>
+                                            }
                                         </td>
                                         <td>
                                             @if (item.IsPaid == false)
                                             {
                                                 <a permission="@ShopPermissions.ConfirmOrder" class="btn btn-success pull-right m-rl-5"
-                                                   asp-page-handler="Confirm">
+                                                   asp-page-handler="Confirm" asp-route-id="@item.Id">
                                                     <i class="fa fa-check"></i> تایید
                                                 </a>
                                                 <a permission="@ShopPermissions.CancelOrder" class="btn btn-danger pull-right m-rl-5"
-                                                   asp-page-handler="Cancel">
+                                                   asp-page-handler="Cancel" asp-route-id="@item.Id">
                                                     <i class="fa fa-close"></i> لغو
                                                 </a>
                                             }

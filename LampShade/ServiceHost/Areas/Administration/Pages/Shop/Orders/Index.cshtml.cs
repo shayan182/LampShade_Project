@@ -11,7 +11,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Orders
 {
     public class IndexModel : PageModel
     {
-        [TempData] public string Message { get; set; }  
+        [TempData] public string Message { get; set; }
         public OrderSearchModel SearchModel;
         public SelectList Account;
         public List<OrderViewModel> Orders;
@@ -29,8 +29,25 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Orders
         public void OnGet(OrderSearchModel searchModel)
         {
             Orders = _orderApplication.Search(searchModel);
-            Account = new SelectList(_accountApplication.GetAccounts(),"Id","Fullname");
+            Account = new SelectList(_accountApplication.GetAccounts(), "Id", "Fullname");
         }
-        
+
+        public IActionResult OnGetConfirm(long id)
+        {
+            _orderApplication.PaymentSucceeded(id, 0);
+            return RedirectToPage("./Index");
+        }
+
+        public IActionResult OnGetCancel(long id)
+        {
+            _orderApplication.Cancel(id);
+            return RedirectToPage("./Index");
+        }
+
+        public IActionResult OnGetItems(long id)
+        {
+            var item = _orderApplication.GetItems(id);
+            return Partial("Items", item);
+        }
     }
 }

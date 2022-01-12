@@ -39,6 +39,18 @@ namespace ShopManagement.Application
             return _orderRepository.GetAmountBy(id);
         }
 
+        public void Cancel(long id)
+        {
+            var order =  _orderRepository.Get(id);
+            order.Cancel();
+            _orderRepository.SaveChanges();
+        }
+
+        public List<OrderItemViewModel> GetItems(long orderId)
+        {
+           return _orderRepository.GetItems(orderId);
+        }
+
         public string PaymentSucceeded(long orderId, long refId)
         {
             var order = _orderRepository.Get(orderId);
