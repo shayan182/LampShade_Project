@@ -61,6 +61,9 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrast
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\ref\DiscountManagement.Infrastructure.EFCore.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Domain.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
@@ -69,9 +72,13 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrast
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\SopManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
@@ -81,4 +88,3 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrast
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.EFCore.dll
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
-D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\CustomerDiscount.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache

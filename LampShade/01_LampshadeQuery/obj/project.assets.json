@@ -2021,8 +2021,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "DiscountManagement.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "SopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "compile": {
@@ -2108,8 +2108,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "ShopManagement.Domain": "1.0.0"
         },
         "compile": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+BYyPDWwovZVmH98F5XRhC8OCkInEbBVp1iKfloC/6FmiI/kH3jGVgRF8L38q/qLYuQlsQcf/6uJwg4pp50cRA==",
+  "dgSpecHash": "ixv5C43Ej/3JyayBwG5wsk1TpYvYTkveEgLUqbV+qqh3LjGk1zGz+IyQFi6iOxCilcurF68v85Cj8WROwzAQ2Q==",
   "success": true,
   "projectFilePath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,7 @@
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
-    "C:\\Users\\shayan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\shayan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
@@ -126,16 +126,5 @@
     "C:\\Users\\shayan\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\shayan\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "InventoryManagement.Infrastructure.Configuration depends on Microsoft.Extensions.DependencyInjection.Abstractions (>= 5.0.10) but Microsoft.Extensions.DependencyInjection.Abstractions 5.0.10 was not found. An approximate best match of Microsoft.Extensions.DependencyInjection.Abstractions 6.0.0 was resolved.",
-      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

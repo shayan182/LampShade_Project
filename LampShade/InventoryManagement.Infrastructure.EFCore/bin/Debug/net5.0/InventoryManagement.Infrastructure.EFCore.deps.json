@@ -1465,6 +1465,7 @@
       },
       "SopManagement.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "ShopManagement.Domain": "1.0.0"

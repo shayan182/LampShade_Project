@@ -2540,7 +2540,7 @@ table.focus-on tbody tr.focused th, table.focus-on tbody tr.focused td {
 /* Datatable */
 
 #datatable td { font-weight: normal;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 div.dataTables_paginate ul.pagination { margin-top: 30px; }

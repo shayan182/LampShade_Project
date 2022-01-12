@@ -36,7 +36,6 @@ namespace ShopManagement.Domain.OrderAgg
             IsPaid = true;
             if (refId != 0)
                 RefId = refId;
-
         }
 
         public void Cancel()

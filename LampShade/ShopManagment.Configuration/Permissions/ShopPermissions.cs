@@ -29,5 +29,11 @@
         public const int RemoveProductPicture = 114;
         public const int RestoreProductPicture = 115;
 
+        //Orders
+        public const int ListOrder = 130;
+        public const int SearchOrder = 131;
+        public const int ConfirmOrder = 132;
+        public const int CancelOrder = 133;
+        public const int OrderItems = 134;
     }
 }

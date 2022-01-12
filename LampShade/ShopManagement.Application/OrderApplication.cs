@@ -1,4 +1,5 @@
-﻿using _0_Framework.Application;
+﻿using System.Collections.Generic;
+using _0_Framework.Application;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
 using ShopManagement.Domain.Services;
@@ -48,6 +49,11 @@ namespace ShopManagement.Application
             _orderRepository.SaveChanges();
             return issueTrackingNo;
 
+        }
+
+        public List<OrderViewModel> Search(OrderSearchModel searchModel)
+        {
+            return _orderRepository.Search(searchModel);
         }
     }
 }

@@ -47,6 +47,16 @@ namespace ShopManagement.Configuration.Permissions
                         new PermissionDto(ShopPermissions.RemoveProductPicture, "RemoveProductPicture"),
                         new PermissionDto(ShopPermissions.RestoreProductPicture, "RestoreProductPicture")
                     }
+                },
+                {
+                    "Order", new List<PermissionDto>
+                    {
+                        new PermissionDto(ShopPermissions.ListOrder, "ListOrder"),
+                        new PermissionDto(ShopPermissions.SearchOrder, "SearchOrder"),
+                        new PermissionDto(ShopPermissions.ConfirmOrder, "ConfirmOrder"),
+                        new PermissionDto(ShopPermissions.CancelOrder, "CancelOrder"),
+                        new PermissionDto(ShopPermissions.OrderItems, "OrderItems")
+                    }
                 }
             };
         }
