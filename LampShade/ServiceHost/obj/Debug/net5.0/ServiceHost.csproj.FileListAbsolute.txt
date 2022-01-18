@@ -758,3 +758,7 @@ D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\ne
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Orders\Index.cshtml.g.cs
 D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Orders\Items.cshtml.g.cs
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.Api.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Presentation.Api.dll
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.Api.pdb
+D:\Shayan\ASP.NET 5\Project\LampShade_Project\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Presentation.Api.pdb
