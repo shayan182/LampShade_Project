@@ -1678,6 +1678,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
+              },
               "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
                 "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
               },
@@ -1834,6 +1837,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
+              },
               "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
                 "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
               }

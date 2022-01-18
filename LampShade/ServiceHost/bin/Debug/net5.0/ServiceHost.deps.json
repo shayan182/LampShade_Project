@@ -2787,6 +2787,7 @@
       },
       "InventoryManagement.Infrastructure.Configuration/1.0.0": {
         "dependencies": {
+          "01_LampshadeQuery": "1.0.0",
           "InventoryManagement.Application": "1.0.0",
           "InventoryManagement.Application.Contract": "1.0.0",
           "InventoryManagement.Domain": "1.0.0",
@@ -2818,6 +2819,7 @@
       },
       "InventoryManagement.Presentation.Api/1.0.0": {
         "dependencies": {
+          "01_LampshadeQuery": "1.0.0",
           "InventoryManagement.Application.Contract": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
