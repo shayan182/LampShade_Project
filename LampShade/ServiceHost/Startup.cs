@@ -91,7 +91,8 @@ namespace ServiceHost
                     options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
                 })
                 .AddApplicationPart(typeof(ProductController).Assembly)
-                .AddApplicationPart(typeof(InventoryController).Assembly);
+                .AddApplicationPart(typeof(InventoryController).Assembly)
+                .AddNewtonsoftJson();
 
         }
 
