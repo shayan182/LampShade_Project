@@ -110,6 +110,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.Cookies": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -121,6 +125,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.9, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -776,6 +784,9 @@
               },
               "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj": {
                 "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj"
+              },
+              "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+                "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
               },
               "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\BlogManagement.Infrastructrue.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"

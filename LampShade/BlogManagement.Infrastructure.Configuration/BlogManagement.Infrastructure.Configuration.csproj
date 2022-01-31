@@ -12,6 +12,7 @@
     <ProjectReference Include="..\01_LampshadeQuery\01_LampshadeQuery.csproj" />
     <ProjectReference Include="..\BlogManagement.Application.Contract\BlogManagement.Application.Contract.csproj" />
     <ProjectReference Include="..\BlogManagement.Application\BlogManagement.Application.csproj" />
+    <ProjectReference Include="..\BlogManagement.Domain\BlogManagement.Domain.csproj" />
     <ProjectReference Include="..\BlogManagement.Infrastructrue.EFCore\BlogManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 
