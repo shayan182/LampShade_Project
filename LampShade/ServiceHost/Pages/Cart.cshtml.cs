@@ -43,10 +43,8 @@ namespace ServiceHost.Pages
             var cartItems = serializer.Deserialize<List<CartItem>>(value);
             var itemToRemove = cartItems.FirstOrDefault(x => x.Id == id);
             cartItems.Remove(itemToRemove);
-            var options = new CookieOptions { Expires = DateTime.Now.AddDays(2) , Path = "/",SameSite = SameSiteMode.None};
+            var options = new CookieOptions { Expires = DateTime.Now.AddDays(2) , Path = "/" };
             Response.Cookies.Append(CookieName, serializer.Serialize(cartItems), options);
-
-            //HttpContext.Response.Cookies.Append("user_id", "1");
 
             return RedirectToPage("/Cart");
         }

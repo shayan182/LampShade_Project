@@ -88,7 +88,7 @@ namespace _01_LampshadeQuery.Query
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Slug = x.Slug
-            }).AsNoTracking().Take(4).ToList();
+            }).OrderBy(x => x.Id).AsNoTracking().Take(4).ToList();
         }
 
         public List<ProductCategoryQueryModel> GetProductCategoriesWithProducts()

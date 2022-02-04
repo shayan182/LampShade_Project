@@ -61,7 +61,7 @@ namespace ServiceHost
             //have a error during set the CookiePolicyOptions (does not contain options in this class)
             services.Configure<CookiePolicyOptions>(options =>
             {
-                options.CheckConsentNeeded = context => true;
+                //options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.Lax;
             });
 
@@ -110,7 +110,8 @@ namespace ServiceHost
             }
             else
             {
-                app.UseExceptionHandler("/Error");
+                app.UseDeveloperExceptionPage();
+                //app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
 
