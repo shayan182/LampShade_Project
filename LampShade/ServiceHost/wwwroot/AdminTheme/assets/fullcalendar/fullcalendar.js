@@ -48,7 +48,7 @@
         var $this = this;
             var form = $("<form></form>");
             form.append("<label>Change event name</label>");
-            form.append("<div class='input-group'><input class='form-control' type=text value='" + calEvent.title + "' /><span class='input-group-btn'><button type='submit' class='btn btn-success waves-effect waves-light'><i class='fa fa-check'></i> Save</button></span></div>");
+            form.append("<div class='input-group'><input class='form-control' type=text value='" + calEvent.title + "' /><span class='input-group-btn'><button type='submit' class='btn btn-success   waves-light'><i class='fa fa-check'></i> Save</button></span></div>");
             $this.$modal.modal({
                 backdrop: 'static'
             });

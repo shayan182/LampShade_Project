@@ -30,8 +30,8 @@
                         <label class="sr-only" asp-for="SearchModel.Email"></label>
                         <input class="form-control" name="Email" asp-for="SearchModel.Email" placeholder="ایمیل">
                     </div>
-                    <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
-                    <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+                    <button type="submit" class="btn btn-success   waves-light m-l-10">جستجو</button>
+                    <a class="btn btn-primary   waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
                 </form>
             </div>
         </div>
@@ -90,14 +90,14 @@
                                         </td>
                                         <td>
 
-                                            <a permission="@CommentPermissions.CancelComment" class="btn btn-danger waves-effect waves-light m-b-5"
+                                            <a permission="@CommentPermissions.CancelComment" class="btn btn-danger   waves-light m-b-5"
                                                asp-page="./Index" asp-page-handler="Cancel" asp-route-id="@item.Id">
                                                 کنسل
                                             </a>
 
                                             @if (!item.IsConfirmed)
                                             {
-                                                <a permission="@CommentPermissions.ConfirmComment" class="btn btn-success waves-effect waves-light m-b-5"
+                                                <a permission="@CommentPermissions.ConfirmComment" class="btn btn-success   waves-light m-b-5"
                                                    asp-page="./Index" asp-page-handler="Confirm" asp-route-id="@item.Id">
                                                     تایید
                                                 </a>

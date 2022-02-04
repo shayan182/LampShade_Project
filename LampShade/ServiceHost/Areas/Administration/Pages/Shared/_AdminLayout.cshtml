@@ -22,8 +22,8 @@
     <!-- animate css -->
     <link href="~/AdminTheme/assets/css/animate.css" rel="stylesheet" />
 
-    <!-- Waves-effect -->
-    <link href="~/AdminTheme/assets/css/waves-effect.css" rel="stylesheet">
+    <!--   -->
+    <link href="~/AdminTheme/assets/css/ .css" rel="stylesheet">
 
     <link href="~/AdminTheme/assets/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
 
@@ -73,7 +73,7 @@
 
                         <ul class="nav navbar-nav navbar-right pull-right">
                             <li class="dropdown hidden-xs">
-                                @*<a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
+                                @*<a href="#" data-target="#" class="dropdown-toggle   waves-light" data-toggle="dropdown" aria-expanded="true">
                                         <i class="md md-notifications"></i> <span class="badge badge-xs badge-danger">3</span>
                                     </a>*@
                                 <ul class="dropdown-menu dropdown-menu-lg">
@@ -147,7 +147,7 @@
         </div>
         <!-- Top Bar End -->
         <!-- ========== Left Sidebar Start ========== -->
-        <partial name="_Menu"></partial>
+        <partial name="_Menu">
         <!-- Left Sidebar End -->
         <!-- ============================================================== -->
         <!-- Start right Content here -->
@@ -257,9 +257,11 @@
     <script>
         tinymce.init({
             selector: '#BodyContent',
-            plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycommentContexts tinymcespellchecker',
-            toolbar: 'a11ycheck addcommentContext showcommentContexts casechange checklist code export formatpainter pageembed permanentpen table',
+            //plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycommentContexts tinymcespellchecker',
+            plugins: 'codesample directionality emoticons fullpage hr link insertdatetime a_tinymce_plugin legacyoutput advlist link image textpattern template wordcount lists table media anchor preview print autolink paste autoresize noneditable pagebreak autosave bbcode charmap code nonbreaking',
+            toolbar: 'codesample anchor ltr rtl emoticons fullpage hr link insertdatetime a11ycheck addcommentContext showcommentContexts casechange template wordcount checklist code preview print image paste pastetext export bullist formatpainter pagebreak charmap pageembed nonbreaking permanentpen table restoredraft numlist     table tabledelete | tableprops tablerowprops tablecellprops | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol',
             toolbar_mode: 'floating',
+            a_plugin_option: true,
             tinycomments_mode: 'embedded',
             tinycomments_author: 'Author name',
         });

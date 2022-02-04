@@ -30,7 +30,8 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
                     Fullname = x.Fullname,
                     Mobile = x.Mobile,
                     Password = x.Password,
-                    Username = x.Username
+                    Username = x.Username,
+                    RuleId = x.RoleId
                 })
                 .FirstOrDefault(x => x.Id == id);
         }

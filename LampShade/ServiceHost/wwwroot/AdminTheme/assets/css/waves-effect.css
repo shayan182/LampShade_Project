@@ -6,7 +6,7 @@
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
-.waves-effect {
+.  {
   position: relative;
   cursor: pointer;
   display: inline-block;
@@ -24,7 +24,7 @@
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
-  .waves-effect .waves-ripple {
+  .  .waves-ripple {
     position: absolute;
     border-radius: 50%;
     width: 20px;
@@ -48,19 +48,19 @@
     -o-transform: scale(0);
     transform: scale(0);
     pointer-events: none; }
-  .waves-effect.waves-light .waves-ripple {
+  . .waves-light .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); }
-  .waves-effect.waves-red .waves-ripple {
+  . .waves-red .waves-ripple {
     background-color: rgba(244, 67, 54, 0.7); }
-  .waves-effect.waves-yellow .waves-ripple {
+  . .waves-yellow .waves-ripple {
     background-color: rgba(255, 235, 59, 0.7); }
-  .waves-effect.waves-orange .waves-ripple {
+  . .waves-orange .waves-ripple {
     background-color: rgba(255, 152, 0, 0.7); }
-  .waves-effect.waves-purple .waves-ripple {
+  . .waves-purple .waves-ripple {
     background-color: rgba(156, 39, 176, 0.7); }
-  .waves-effect.waves-green .waves-ripple {
+  . .waves-green .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
-  .waves-effect.waves-teal .waves-ripple {
+  . .waves-teal .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
 
 .waves-notransition {
@@ -99,5 +99,5 @@
   display: block; }
 
 /* Firefox Bug: link not triggered */
-a.waves-effect .waves-ripple {
+a.  .waves-ripple {
   z-index: -1; }

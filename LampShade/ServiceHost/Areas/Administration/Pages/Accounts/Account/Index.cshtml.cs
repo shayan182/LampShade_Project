@@ -60,9 +60,6 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
         [NeedsPermission(AccountPermissions.EditAccount)]
         public JsonResult OnPostEdit(EditAccount command)
         {
-            if (!ModelState.IsValid)
-                Message = ValidationMessages.Error;
-
             var result = _accountApplication.Edit(command);
             Message = result.Message;
             return new JsonResult(result);

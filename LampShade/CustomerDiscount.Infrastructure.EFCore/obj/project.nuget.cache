@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dw1tO3v/K2/dAX77a0oAbPXx57ylJ8vYiGfTLT05sS29VcIZbq+IlpPba+qN7qHEW8zVfaalVE92EnWbW0/0Xw==",
+  "dgSpecHash": "IR/Z1FB5tEdAu6UEhPmC/ZE0F3JbJUay+PqtCfjxEN1VlLJgpuqM+dQjExUJJJ1ZTdN7DCK7B6IhcRK2znmVqg==",
   "success": true,
   "projectFilePath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\CustomerDiscount.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [

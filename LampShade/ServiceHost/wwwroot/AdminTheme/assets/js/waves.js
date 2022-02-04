@@ -186,7 +186,7 @@
                     var parent = el.parentNode;
 
                     // If input already have parent just pass through
-                    if (parent.tagName.toLowerCase() === 'i' && parent.className.indexOf('waves-effect') !== -1) {
+                    if (parent.tagName.toLowerCase() === 'i' && parent.className.indexOf(' ') !== -1) {
                         continue;
                     }
 
@@ -247,8 +247,8 @@
 
 
     /**
-     * Delegated click handler for .waves-effect element.
-     * returns null when .waves-effect element not in "click tree"
+     * Delegated click handler for .  element.
+     * returns null when .  element not in "click tree"
      */
     function getWavesEffectElement(e) {
         if (TouchHandler.allowEvent(e) === false) {
@@ -259,10 +259,10 @@
         var target = e.target || e.srcElement;
 
         while (target.parentElement !== null) {
-            if (!(target instanceof SVGElement) && target.className.indexOf('waves-effect') !== -1) {
+            if (!(target instanceof SVGElement) && target.className.indexOf(' ') !== -1) {
                 element = target;
                 break;
-            } else if (target.classList.contains('waves-effect')) {
+            } else if (target.classList.contains(' ')) {
                 element = target;
                 break;
             }
@@ -273,7 +273,7 @@
     }
 
     /**
-     * Bubble the click and show effect if .waves-effect elem was found
+     * Bubble the click and show effect if .  elem was found
      */
     function showEffect(e) {
         var element = getWavesEffectElement(e);
@@ -299,7 +299,7 @@
         }
 
         //Wrap input inside <i> tag
-        Effect.wrapInput($$('.waves-effect'));
+        Effect.wrapInput($$('. '));
 
         if ('ontouchstart' in window) {
             document.body.addEventListener('touchstart', showEffect, false);

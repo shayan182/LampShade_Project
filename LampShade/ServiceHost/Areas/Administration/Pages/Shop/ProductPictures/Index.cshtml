@@ -32,8 +32,8 @@
                             <option value="0">محصول ...</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
-                    <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+                    <button type="submit" class="btn btn-success   waves-light m-l-10">جستجو</button>
+                    <a class="btn btn-primary   waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
                 </form>
             </div>
         </div>
@@ -86,19 +86,19 @@
                                         </td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a permission="@ShopPermissions.EditProductPicture" class="btn btn-warning waves-effect waves-light m-b-5"
+                                            <a permission="@ShopPermissions.EditProductPicture" class="btn btn-warning   waves-light m-b-5"
                                                href="#showmodal=@Url.Page("./Index", "Edit", new {id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
                                             @if (!item.IsRemoved)
                                             {
                                                 <a permission="@ShopPermissions.RemoveProductPicture" asp-page="./Index" asp-page-handler="Remove" asp-route-id="@item.Id"
-                                                   class="btn btn-danger waves-effect waves-light m-b-5">حذف</a>
+                                                   class="btn btn-danger   waves-light m-b-5">حذف</a>
                                             }
                                             else
                                             {
                                                 <a permission="@ShopPermissions.RestoreProductPicture" asp-page="./Index" asp-page-handler="Restore" asp-route-id="@item.Id"
-                                                   class="btn btn-success waves-effect waves-light m-b-5">فعال سازی</a>
+                                                   class="btn btn-success   waves-light m-b-5">فعال سازی</a>
                                             }
                                         </td>
                                     </tr>

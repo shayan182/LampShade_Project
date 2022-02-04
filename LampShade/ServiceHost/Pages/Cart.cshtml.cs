@@ -45,7 +45,8 @@ namespace ServiceHost.Pages
             cartItems.Remove(itemToRemove);
             var options = new CookieOptions { Expires = DateTime.Now.AddDays(2) , Path = "/",SameSite = SameSiteMode.None};
             Response.Cookies.Append(CookieName, serializer.Serialize(cartItems), options);
-            //Response.Cookies.Append("key", "value", new CookieOptions());
+
+            //HttpContext.Response.Cookies.Append("user_id", "1");
 
             return RedirectToPage("/Cart");
         }
@@ -59,6 +60,7 @@ namespace ServiceHost.Pages
             {
                 item.TotalItemPrice = item.Price * item.Count;
             }
+
             CartItems = _productQuery.CheckInventoryStatus(cartItems);
             return RedirectToPage(CartItems.Any(x => !x.IsInStock) ? "/Cart" : "/Checkout");
         }

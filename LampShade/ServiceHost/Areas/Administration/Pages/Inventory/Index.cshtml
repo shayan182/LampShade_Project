@@ -40,8 +40,8 @@
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
-                    <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+                    <button type="submit" class="btn btn-success   waves-light m-l-10">جستجو</button>
+                    <a class="btn btn-primary   waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
                 </form>
             </div>
         </div>
@@ -83,22 +83,22 @@
                                         <td>@item.CreationDate</td>
                                         <td>@item.CurrentCount</td>
                                         <td>
-                                            <a permission="@InventoryPermissions.EditInventory" class="btn btn-warning waves-effect waves-light m-b-5"
+                                            <a permission="@InventoryPermissions.EditInventory" class="btn btn-warning   waves-light m-b-5"
                                                href="#showmodal=@Url.Page("./Index", "Edit", new {id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
                                         
-                                            <a permission="@InventoryPermissions.Increase" class="btn btn-success waves-effect waves-light m-b-5"
+                                            <a permission="@InventoryPermissions.Increase" class="btn btn-success   waves-light m-b-5"
                                                href="#showmodal=@Url.Page("./Index", "Increase", new {id = item.Id})">
                                                 <i class="fa fa-plus"></i> افزایش موجودی 
                                             </a>
                                         
-                                            <a permission="@InventoryPermissions.Reduce" class="btn btn-danger waves-effect waves-light m-b-5"
+                                            <a permission="@InventoryPermissions.Reduce" class="btn btn-danger   waves-light m-b-5"
                                                href="#showmodal=@Url.Page("./Index", "Reduce", new {id = item.Id})">
-                                                <i class="fa fa-minus"></i> کاهش موحودی
+                                                <i class="fa fa-minus"></i> کاهش موجودی
                                             </a>
 
-                                            <a permission="@InventoryPermissions.OperationLog" class="btn btn-primary waves-effect waves-light m-b-5" 
+                                            <a permission="@InventoryPermissions.OperationLog" class="btn btn-primary   waves-light m-b-5" 
                                                onclick="$('.modal-dialog').css('width', '60%')"
                                                href="#showmodal=@Url.Page("./Index", "Log", new {id = item.Id})">
                                                 <i class="fa fa-recycle"></i>مشاهده گردش انبار

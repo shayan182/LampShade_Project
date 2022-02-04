@@ -11,8 +11,8 @@ namespace ShopManagement.Application.Contracts.ProductPicture
         [Range(1,100000 ,ErrorMessage = ValidationMessages.IsRequired) ]
         public long ProductId { get;  set; }
 
-        [FileExtensionLimitation(new string[] { ".jpeg", ".jpg", ".png" }, ErrorMessage = ValidationMessages.InvalidFileFormat)]
-        [MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
+        [FileExtensionLimitation(new string[] { "image/jpeg", "image/png" }, ErrorMessage = ValidationMessages.InvalidFileFormat)]
+        [MaxFileSize(3, ErrorMessage = ValidationMessages.MaxFileSize)]
         public IFormFile Picture { get;  set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]

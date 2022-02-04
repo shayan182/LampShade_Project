@@ -92,7 +92,7 @@ namespace _01_LampshadeQuery.Query
             }
             return new Chart()
             {
-                Label = "فروش ",
+                Label = "فروش",
                 Data = data,
                 BackgroundColor = new List<string> { "#e76f51", "#0a9396" , "#a8dadc", "#e63946", "#800f2f", "#bc6c25"},
                 BorderColor = "#4a4e69"

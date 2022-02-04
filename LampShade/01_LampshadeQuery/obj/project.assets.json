@@ -7057,7 +7057,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shayan\\.nuget\\packages\\": {}
+    "C:\\Users\\shayan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7068,6 +7069,9 @@
       "packagesPath": "C:\\Users\\shayan\\.nuget\\packages\\",
       "outputPath": "D:\\Shayan\\ASP.NET 5\\Project\\LampShade_Project\\LampShade\\01_LampshadeQuery\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\shayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -7125,7 +7129,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,16 +7,17 @@ namespace _0_Framework.Application
     public class MaxFileSizeAttribute : ValidationAttribute , IClientModelValidator
     {
         private readonly int _maxFileSize;
-
+        
         public MaxFileSizeAttribute(int maxFileSize)
         {
-            _maxFileSize = maxFileSize;
+            _maxFileSize = maxFileSize * 1024 * 1024;
         }
 
         public override bool IsValid(object value)
         {
             var file = value as IFormFile;
             if (file == null) return true;
+            
             return file.Length < _maxFileSize;
         }
 
@@ -24,6 +25,7 @@ namespace _0_Framework.Application
         {
             context.Attributes.Add("data-val","true");
             context.Attributes.Add("data-val-maxFileSize" , ErrorMessage);
+            context.Attributes.Add("data-val-maxsize", string.Join(",",_maxFileSize));
         }
     }
 }

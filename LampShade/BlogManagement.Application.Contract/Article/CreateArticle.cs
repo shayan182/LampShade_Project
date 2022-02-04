@@ -16,6 +16,8 @@ namespace BlogManagement.Application.Contract.Article
 
         public string Description { get; set; }
 
+        [FileExtensionLimitation(new string[] { "image/jpeg", "image/png" }, ErrorMessage = ValidationMessages.InvalidFileFormat)]
+        [MaxFileSize(3, ErrorMessage = ValidationMessages.MaxFileSize)]
         public IFormFile Picture { get; set; }
 
         [MaxLength(500, ErrorMessage = ValidationMessages.MaxFileSize)]
